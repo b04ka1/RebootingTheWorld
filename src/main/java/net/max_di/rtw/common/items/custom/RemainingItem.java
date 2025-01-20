@@ -7,10 +7,12 @@ public class RemainingItem extends Item {
     public RemainingItem(Properties properties) {
         super(properties);
     }
+
     @Override
     public boolean hasCraftingRemainingItem() {
         return true;
     }
+
     @Override
     public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
         ItemStack retval = new ItemStack(this);

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glazed_chocolate_gingerbread_brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rtw:glazed_chocolate_gingerbread_brick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rtw:glazed_chocolate_gingerbread_bricks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glazed_chocolate_gingerbread_brick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rtw:glazed_chocolate_gingerbread_bricks"
+    ]
+  }
+}

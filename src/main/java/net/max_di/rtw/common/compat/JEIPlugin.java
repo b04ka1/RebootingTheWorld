@@ -23,6 +23,7 @@ import java.util.List;
 @JeiPlugin
 public class JEIPlugin implements IModPlugin {
     public static final RecipeType<SawmillRecipe> SAWMILL_TYPE = RecipeType.create(RTW.MOD_ID, "sawmilling", SawmillRecipe.class);
+
     @Override
     public ResourceLocation getPluginUid() {
         return ResourceLocation.fromNamespaceAndPath(RTW.MOD_ID, "rtw_plugin");
@@ -38,14 +39,14 @@ public class JEIPlugin implements IModPlugin {
         RecipeManager recipeManager = Minecraft.getInstance().level.getRecipeManager();
         List<SawmillRecipe> sawmillRecipes = new ArrayList<>();
         sawmillRecipes.addAll(
-            recipeManager.getAllRecipesFor(ModRecipes.SAWMILL_TYPE.get())
-                    .stream().map(r-> r.value()).toList());
+                recipeManager.getAllRecipesFor(ModRecipes.SAWMILL_TYPE.get())
+                        .stream().map(r -> r.value()).toList());
         registration.addRecipes(SawmillCategory.SAWMILL_TYPE, sawmillRecipes);
     }
 
     @Override
     public void registerGuiHandlers(IGuiHandlerRegistration registration) {
-        registration.addRecipeClickArea(SawmillScreen.class,7,5,33,8, SawmillCategory.SAWMILL_TYPE);
+        registration.addRecipeClickArea(SawmillScreen.class, 7, 5, 33, 8, SawmillCategory.SAWMILL_TYPE);
     }
 
     @Override

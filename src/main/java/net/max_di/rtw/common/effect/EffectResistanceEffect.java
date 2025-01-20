@@ -11,13 +11,17 @@ public class EffectResistanceEffect extends MobEffect {
     }
 
     @Override
-    public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
+    public boolean applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
         for (MobEffectInstance effectInstance : pLivingEntity.getActiveEffects()) {
-            if (effectInstance.getEffect() != this) {
+            if (effectInstance.getEffect().value() != this) {
                 pLivingEntity.removeEffect(effectInstance.getEffect());
             }
         }
-        super.applyEffectTick(pLivingEntity, pAmplifier);
+        return true;
     }
-    
+
+    @Override
+    public boolean shouldApplyEffectTickThisTick(int pDuration, int pAmplifier) {
+        return true;
+    }
 }

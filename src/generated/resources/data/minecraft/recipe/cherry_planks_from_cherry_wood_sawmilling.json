@@ -1,0 +1,10 @@
+{
+  "type": "rtw:sawmilling",
+  "ingredient": {
+    "item": "minecraft:cherry_wood"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:cherry_planks"
+  }
+}

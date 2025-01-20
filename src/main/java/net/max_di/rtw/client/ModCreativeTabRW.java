@@ -5,7 +5,8 @@ import net.max_di.rtw.common.blocks.ModBlocksRW;
 import net.max_di.rtw.common.items.ModItemsRW;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.item.*;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -79,6 +80,7 @@ public class ModCreativeTabRW {
                         pOutput.accept(ModItemsRW.CHOCOLATE_GINGERBREAD_DOUGH.get());
                         pOutput.accept(ModBlocksRW.GINGERBREAD_DOUGH_BLOCK.get());
                         pOutput.accept(ModBlocksRW.GINGERBREAD_BLOCK.get());
+                        pOutput.accept(ModBlocksRW.GLAZED_GINGERBREAD_BLOCK.get());
                         pOutput.accept(ModBlocksRW.GINGERBREAD_BLOCK_SLAB.get());
                         pOutput.accept(ModBlocksRW.GINGERBREAD_BLOCK_STAIRS.get());
                         pOutput.accept(ModBlocksRW.GINGERBREAD_BRICKS.get());
@@ -89,6 +91,7 @@ public class ModCreativeTabRW {
                         pOutput.accept(ModBlocksRW.GLAZED_GINGERBREAD_BRICKS_STAIRS.get());
                         pOutput.accept(ModBlocksRW.CHOCOLATE_GINGERBREAD_DOUGH_BLOCK.get());
                         pOutput.accept(ModBlocksRW.CHOCOLATE_GINGERBREAD_BLOCK.get());
+                        pOutput.accept(ModBlocksRW.GLAZED_CHOCOLATE_GINGERBREAD_BLOCK.get());
                         pOutput.accept(ModBlocksRW.CHOCOLATE_GINGERBREAD_BLOCK_SLAB.get());
                         pOutput.accept(ModBlocksRW.CHOCOLATE_GINGERBREAD_BLOCK_STAIRS.get());
                         pOutput.accept(ModBlocksRW.CHOCOLATE_GINGERBREAD_BRICKS.get());
@@ -105,6 +108,32 @@ public class ModCreativeTabRW {
                         pOutput.accept(ModItemsRW.GINGERBREAD_CREEPER_SPAWN_EGG.get());
                         pOutput.accept(ModBlocksRW.SAWMILL.get());
                         pOutput.accept(ModItemsRW.REPAIR_TEMPLATE.get());
+                        pOutput.accept(ModBlocksRW.OAK_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.SPRUCE_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.BIRCH_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.JUNGLE_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.ACACIA_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.CHERRY_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.DARK_OAK_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.MANGROVE_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.CRIMSON_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.WARPED_PARQUET.get());
+                        pOutput.accept(ModBlocksRW.CARVED_OAK_PLANKS.get());
+                        pOutput.accept(ModBlocksRW.CARVED_SPRUCE_PLANKS.get());
+                        pOutput.accept(ModBlocksRW.CARVED_BIRCH_PLANKS.get());
+                        pOutput.accept(ModBlocksRW.CARVED_JUNGLE_PLANKS.get());
+                        pOutput.accept(ModBlocksRW.CARVED_ACACIA_PLANKS.get());
+                        pOutput.accept(ModBlocksRW.CARVED_CHERRY_PLANKS.get());
+                        pOutput.accept(ModBlocksRW.CARVED_DARK_OAK_PLANKS.get());
+                        pOutput.accept(ModBlocksRW.CARVED_MANGROVE_PLANKS.get());
+                        pOutput.accept(ModBlocksRW.CARVED_CRIMSON_PLANKS.get());
+                        pOutput.accept(ModBlocksRW.CARVED_WARPED_PLANKS.get());
+                        pOutput.accept(ModItemsRW.SMALL_DYNAMITE_STICK.get());
+                        pOutput.accept(ModItemsRW.SMALL_SPIKY_DYNAMITE_STICK.get());
+                        pOutput.accept(ModItemsRW.MEDIUM_DYNAMITE_STICK.get());
+                        pOutput.accept(ModItemsRW.MEDIUM_SPIKY_DYNAMITE_STICK.get());
+                        pOutput.accept(ModItemsRW.BIG_DYNAMITE_STICK.get());
+                        pOutput.accept(ModItemsRW.BIG_SPIKY_DYNAMITE_STICK.get());
                     })
                     .build());
 

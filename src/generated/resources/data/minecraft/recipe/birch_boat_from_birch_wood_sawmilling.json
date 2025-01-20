@@ -1,0 +1,10 @@
+{
+  "type": "rtw:sawmilling",
+  "ingredient": {
+    "item": "minecraft:birch_wood"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:birch_boat"
+  }
+}

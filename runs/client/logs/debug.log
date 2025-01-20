@@ -1,0 +1,1043 @@
+[30дек.2024 15:56:07.304] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.0.167, --assetIndex, asset-index, --assetsDir, C:\Users\Daniil\.gradle\caches\minecraft\assets\1.21, --gameDir, ., --fml.neoForgeVersion, 21.0.167, --fml.fmlVersion, 4.0.23, --fml.mcVersion, 1.21, --fml.neoFormVersion, 20240613.152323]
+[30дек.2024 15:56:07.306] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.4+7-LTS
+[30дек.2024 15:56:07.307] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.4 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[30дек.2024 15:56:07.324] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
+[30дек.2024 15:56:07.341] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[30дек.2024 15:56:07.348] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[30дек.2024 15:56:07.351] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client
+[30дек.2024 15:56:07.352] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\mods
+[30дек.2024 15:56:07.352] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config
+[30дек.2024 15:56:07.352] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\fml.toml
+[30дек.2024 15:56:07.383] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\fml.toml
+[30дек.2024 15:56:07.383] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[30дек.2024 15:56:07.383] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[30дек.2024 15:56:07.383] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 12
+[30дек.2024 15:56:07.383] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[30дек.2024 15:56:07.383] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[30дек.2024 15:56:07.383] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[30дек.2024 15:56:07.383] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[30дек.2024 15:56:07.384] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[30дек.2024 15:56:07.384] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[30дек.2024 15:56:07.384] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[30дек.2024 15:56:07.384] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[30дек.2024 15:56:07.384] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[30дек.2024 15:56:07.384] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[30дек.2024 15:56:07.391] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates Rebooting-the-world-mods%%C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\resources\main;Rebooting-the-world-mods%%C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\classes\java\main from env
+[30дек.2024 15:56:07.392] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{Rebooting-the-world-mods=[C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\resources\main, C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\classes\java\main]}]
+[30дек.2024 15:56:07.394] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[30дек.2024 15:56:07.399] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[30дек.2024 15:56:07.474] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[30дек.2024 15:56:07.612] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[30дек.2024 15:56:07.645] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[30дек.2024 15:56:07.645] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[30дек.2024 15:56:07.645] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[30дек.2024 15:56:07.646] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[30дек.2024 15:56:07.646] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[30дек.2024 15:56:07.646] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 4.0.23 loading
+[30дек.2024 15:56:07.646] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 11.0.4+main.d2e20e43
+[30дек.2024 15:56:07.646] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[30дек.2024 15:56:07.647] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[30дек.2024 15:56:07.647] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[30дек.2024 15:56:07.647] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[30дек.2024 15:56:07.647] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[30дек.2024 15:56:07.659] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=21.0.167, fmlVersion=4.0.23, mcVersion=1.21, neoFormVersion=20240613.152323]
+[30дек.2024 15:56:07.660] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[30дек.2024 15:56:07.660] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[30дек.2024 15:56:07.668] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@5762806e
+[30дек.2024 15:56:07.677] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.6 Source=union:/C:/Users/Daniil/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.14.0+mixin.0.8.6/c265173c84346e9e5d42a2384b2b02bd39a4a899/sponge-mixin-0.14.0+mixin.0.8.6.jar%23135!/ Service=ModLauncher Env=CLIENT
+[30дек.2024 15:56:07.679] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[30дек.2024 15:56:07.680] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30дек.2024 15:56:07.680] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30дек.2024 15:56:07.680] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30дек.2024 15:56:07.681] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30дек.2024 15:56:07.681] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[30дек.2024 15:56:07.682] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[30дек.2024 15:56:07.683] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[30дек.2024 15:56:07.683] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[30дек.2024 15:56:07.683] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client
+[30дек.2024 15:56:07.683] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\mods
+[30дек.2024 15:56:07.683] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config
+[30дек.2024 15:56:07.683] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\fml.toml
+[30дек.2024 15:56:07.684] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[30дек.2024 15:56:07.692] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\fml.toml
+[30дек.2024 15:56:07.692] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[30дек.2024 15:56:07.692] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 12
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[30дек.2024 15:56:07.694] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[30дек.2024 15:56:07.696] [main/DEBUG] [net.neoforged.fml.loading.LaunchContext/SCAN]: Located paths when launch context was created: [C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.97.Final\f37380d23c9bb079bc702910833b2fd532c9abd0\netty-transport-4.1.97.Final.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.18.0\89b684257096f548fa39a7df9fdaa409d4d4df91\error_prone_annotations-2.18.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\73.2\61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9\icu4j-73.2.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.20.0\d0ddcc708ddf527a3454c941b7b9225cc83a15ff\jline-terminal-3.20.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\efa1eb78c5ccd840e9f329717109b5e892d72f8e\lwjgl-glfw-3.3.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\coremods\7.0.3\9147e6f638b4272b3bd5fc8f92ad37802512c6c\coremods-7.0.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.12\c24946d46824bd528054bface3231d2ecb7e95e8\fastutil-8.5.12.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged.accesstransformers\at-modlauncher\10.0.1\5aba50202aceead086bc09fbc2751c9f05cb4890\at-modlauncher-10.0.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\82d755ca94b102e9ca77283b9e2dc46d1b15fbe5\lwjgl-tinyfd-3.3.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\32334f3fd5270a59bad9939a93115acb6de36dcf\lwjgl-glfw-3.3.3-natives-windows-x86.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.97.Final\cec8348108dc76c47cf87c669d514be52c922144\netty-resolver-4.1.97.Final.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.15.1\f11560da189ab563a5c8e351941415430e9304ea\commons-io-2.15.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.8.0\861dbcf2757dd6701c98b3949198549ccb5f62ff\toml-3.8.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.97.Final\abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36\netty-handler-4.1.97.Final.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\4.0.23\1603ac9e724a9bf4e3d4ae2631da629e4755111d\loader-4.0.23.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.23\c9491ed7df998cf229eae9c7364ee9ab6f26bcfe\earlydisplay-4.0.23.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\2.8\c85270e307e7b822f1086b93689124b89768e273\j2objc-annotations-2.8.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.97.Final\f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f\netty-buffer-4.1.97.Final.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.20.0\8f15415b022a25b473e8e16c28ae913186ffb9c4\jline-reader-3.20.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarMetadata\0.4.1\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\JarJarMetadata-0.4.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarSelector\0.4.1\fb3cc7a58af22ad2880adb98af6d518128c47dae\JarJarSelector-0.4.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10.1\b3add478d4382b78ea20b1671390a858002feb6c\gson-2.10.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.14.0+mixin.0.8.6\c265173c84346e9e5d42a2384b2b02bd39a4a899\sponge-mixin-0.14.0+mixin.0.8.6.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.2.7\24cb95ffb0e3433fd6e844c04e68009e504ca1c0\logging-1.2.7.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.minecraftforge\srgutils\0.4.15\ca408b131759478f164e010fae0d73997e125fb5\srgutils-0.4.15.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.14.0\28934d48aed814f11e4c584da55c49fa7032b31b\jna-platform-5.14.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\426222fc027602a5f21b9c0fe79cde6a4c7a011f\lwjgl-jemalloc-3.3.3-natives-windows.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.16\51cf043c87253c9f58b539c9f7e44c8894223850\httpcore-4.4.16.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.97.Final\384ba4d75670befbedb45c4d3b497a93639c206d\netty-codec-4.1.97.Final.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\a6697981b0449a5087c1d546fc08b4f73e8f98c9\lwjgl-tinyfd-3.3.3-natives-windows.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\65e956d3735a1abdc82eff4baec1b61174697d4b\lwjgl-opengl-3.3.3-natives-windows-arm64.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\a0db6c84a8becc8ca05f9dbfa985edc348a824c7\lwjgl-freetype-3.3.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.22.1\7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4\log4j-core-2.22.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\87b8d5050e3adb46bb58fe1cb2669a4a48fce10d\lwjgl-openal-3.3.3-natives-windows-x86.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\bus\8.0.1\9df0ed904cec279eb33ca6df420f6f82706ebb4c\bus-8.0.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\1d9facdf6541de114b0f963be33505b7679c78cb\lwjgl-stb-3.3.3-natives-windows.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\6.0.54\de8bc95660e1b2fe8793fd427a7a10dcec5b3ea7\authlib-6.0.54.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.4.10\b1d8ab82d11d92fd639b56d639f8f46f739dd5fa\oshi-core-6.4.10.jar, C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21\client-1.21-client-extra.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\9e670718e050aeaeea0c2d5b907cffb142f2e58f\lwjgl-3.3.3-natives-windows-x86.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.33.0\de2b60b62da487644fc11f734e73c8b0b431238f\checker-qual-3.33.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\daada81ceb5fc0c291fbfdd4433cb8d9423577f2\lwjgl-openal-3.3.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\accesstransformers\10.0.1\fd83b5725f76eae9115e9355fa1c456a6a441400\accesstransformers-10.0.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\b543467b7ff3c6920539a88ee602d34098628be5\lwjgl-jemalloc-3.3.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.1\17125bae1d965624e265ef49552f6465a2bfa307\antlr4-runtime-4.13.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.16.0\4e3eb3d79888d76b54e28b350915b5dc3919c9de\commons-codec-1.16.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.14.0\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\jna-5.14.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.2.9\73e324f2ee541493a5179abf367237faa782ed21\brigadier-1.2.9.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.97.Final\d469d84265ab70095b01b40886cabdd433b6e664\netty-transport-native-unix-common-4.1.97.Final.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.22.1\bea6fede6328fabafd7e68363161a7ea6605abd1\log4j-api-2.22.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\15a8c1de7f51d07a92eae7ce1222557073a0c0c3\lwjgl-freetype-3.3.3-natives-windows-x86.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.14.0\1ed471194b02f2c6cb734a0cd6f6f107c673afae\commons-lang3-3.14.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\8.0.16\67d4de6d7f95d89bcf5862995fb854ebaec02a34\datafixerupper-8.0.16.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\neoform\1.21-20240613.152323\6293c1a6b9b053ea4e41ac2fe03a3342486d45b1\neoform-1.21-20240613.152323.zip, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.97.Final\7cceacaf11df8dc63f23d0fb58e9d4640fc88404\netty-common-4.1.97.Final.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.22.1\d7e6693c2606cb7e7335047d7bb96dec52db5665\log4j-slf4j2-impl-2.22.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.3.0\b562e9bb61235c9520e26282cdee71f8f802d1fc\terminalconsoleappender-1.3.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\25dd6161988d7e65f71d5065c99902402ee32746\lwjgl-stb-3.3.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\2f6b0147078396a58979125a4c947664e98293a\lwjgl-opengl-3.3.3.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.8.0\2498dd2b3120dd49e963e2feab8fa5d0c5f80e0a\core-3.8.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.97.Final\795da37ded759e862457a82d9d92c4d39ce8ecee\netty-transport-classes-epoll-4.1.97.Final.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\11.0.4\6619d4812a3c092310d521ebc4c9503727563df7\modlauncher-11.0.4.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\32.1.2-jre\5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318\guava-32.1.2-jre.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\mergetool\2.0.3\1275202cbbb248f49345cf6787ce299afd9a02fb\mergetool-2.0.3-api.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.26.0\659feffdd12280201c8aacb8f7be94f9a883c824\commons-compress-1.26.0.jar, C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6\jorbis-0.0.17.jar]
+[30дек.2024 15:56:07.697] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[30дек.2024 15:56:07.698] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[30дек.2024 15:56:07.698] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist CLIENT
+[30дек.2024 15:56:07.700] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[30дек.2024 15:56:07.700] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[30дек.2024 15:56:07.700] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[30дек.2024 15:56:07.701] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[30дек.2024 15:56:07.701] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[30дек.2024 15:56:07.701] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[30дек.2024 15:56:07.703] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates Rebooting-the-world-mods%%C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\resources\main;Rebooting-the-world-mods%%C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\classes\java\main from env
+[30дек.2024 15:56:07.704] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{Rebooting-the-world-mods=[C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\resources\main, C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\classes\java\main]}]
+[30дек.2024 15:56:07.714] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
+[30дек.2024 15:56:07.715] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.NeoForgeDevProvider from loader-4.0.23.jar
+[30дек.2024 15:56:07.715] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from loader-4.0.23.jar
+[30дек.2024 15:56:07.715] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.MavenDirectoryLocator from loader-4.0.23.jar
+[30дек.2024 15:56:07.715] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.UserdevLocator from loader-4.0.23.jar
+[30дек.2024 15:56:07.717] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
+[30дек.2024 15:56:07.717] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from loader-4.0.23.jar
+[30дек.2024 15:56:07.717] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from loader-4.0.23.jar
+[30дек.2024 15:56:07.718] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
+[30дек.2024 15:56:07.718] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from loader-4.0.23.jar
+[30дек.2024 15:56:07.718] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 4 ways to find mods
+[30дек.2024 15:56:07.718] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator neoforge devenv provider ([C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar])
+[30дек.2024 15:56:07.866] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.167.jar with {minecraft} mods - versions {1.21}
+[30дек.2024 15:56:07.866] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.167.jar" [locator: neoforge devenv provider ([C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar])]
+[30дек.2024 15:56:07.874] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar
+[30дек.2024 15:56:07.875] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar
+[30дек.2024 15:56:07.884] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.167.jar with {neoforge} mods - versions {21.0.167}
+[30дек.2024 15:56:07.884] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.167.jar" [locator: neoforge devenv provider ([C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar])]
+[30дек.2024 15:56:07.884] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator neoforge devenv provider ([C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar]) found 2 mods, 0 warnings, 0 errors and skipped 0 candidates
+[30дек.2024 15:56:07.885] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\mods}
+[30дек.2024 15:56:07.885] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\mods for mods
+[30дек.2024 15:56:07.886] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\mods} found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[30дек.2024 15:56:07.886] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator maven libs
+[30дек.2024 15:56:07.888] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[30дек.2024 15:56:07.888] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator maven libs found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[30дек.2024 15:56:07.888] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator userdev mods and services
+[30дек.2024 15:56:07.890] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\resources\main
+[30дек.2024 15:56:07.890] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\resources\main
+[30дек.2024 15:56:07.894] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {rtw} mods - versions {1.1.0}
+[30дек.2024 15:56:07.895] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[30дек.2024 15:56:07.902] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar
+[30дек.2024 15:56:07.902] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar
+[30дек.2024 15:56:07.903] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.167.jar with {neoforge} mods - versions {21.0.167}
+[30дек.2024 15:56:07.903] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.167.jar" [locator: userdev mods and services, reader: mod manifest]
+[30дек.2024 15:56:07.906] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.21-neoforge\19.5.0.59\e0e6cb065d44174b202f23c3aa0667948595f085\jei-1.21-neoforge-19.5.0.59.jar
+[30дек.2024 15:56:07.906] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.21-neoforge\19.5.0.59\e0e6cb065d44174b202f23c3aa0667948595f085\jei-1.21-neoforge-19.5.0.59.jar
+[30дек.2024 15:56:07.908] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.21-neoforge-19.5.0.59.jar with {jei} mods - versions {19.5.0.59}
+[30дек.2024 15:56:07.908] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21-neoforge-19.5.0.59.jar" [locator: userdev mods and services, reader: mod manifest]
+[30дек.2024 15:56:07.926] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.23\c9491ed7df998cf229eae9c7364ee9ab6f26bcfe\earlydisplay-4.0.23.jar because it was already located earlier
+[30дек.2024 15:56:07.926] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\4.0.23\1603ac9e724a9bf4e3d4ae2631da629e4755111d\loader-4.0.23.jar because it was already located earlier
+[30дек.2024 15:56:07.926] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\coremods\7.0.3\9147e6f638b4272b3bd5fc8f92ad37802512c6c\coremods-7.0.3.jar because it was already located earlier
+[30дек.2024 15:56:07.926] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\11.0.4\6619d4812a3c092310d521ebc4c9503727563df7\modlauncher-11.0.4.jar because it was already located earlier
+[30дек.2024 15:56:07.926] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged.accesstransformers\at-modlauncher\10.0.1\5aba50202aceead086bc09fbc2751c9f05cb4890\at-modlauncher-10.0.1.jar because it was already located earlier
+[30дек.2024 15:56:07.926] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\accesstransformers\10.0.1\fd83b5725f76eae9115e9355fa1c456a6a441400\accesstransformers-10.0.1.jar because it was already located earlier
+[30дек.2024 15:56:07.926] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\mergetool\2.0.3\1275202cbbb248f49345cf6787ce299afd9a02fb\mergetool-2.0.3-api.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\bus\8.0.1\9df0ed904cec279eb33ca6df420f6f82706ebb4c\bus-8.0.1.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.8.0\861dbcf2757dd6701c98b3949198549ccb5f62ff\toml-3.8.0.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.8.0\2498dd2b3120dd49e963e2feab8fa5d0c5f80e0a\core-3.8.0.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarSelector\0.4.1\fb3cc7a58af22ad2880adb98af6d518128c47dae\JarJarSelector-0.4.1.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarMetadata\0.4.1\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\JarJarMetadata-0.4.1.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.3.0\b562e9bb61235c9520e26282cdee71f8f802d1fc\terminalconsoleappender-1.3.0.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.14.0+mixin.0.8.6\c265173c84346e9e5d42a2384b2b02bd39a4a899\sponge-mixin-0.14.0+mixin.0.8.6.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\6.0.54\de8bc95660e1b2fe8793fd427a7a10dcec5b3ea7\authlib-6.0.54.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.26.0\659feffdd12280201c8aacb8f7be94f9a883c824\commons-compress-1.26.0.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.14.0\1ed471194b02f2c6cb734a0cd6f6f107c673afae\commons-lang3-3.14.0.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.2.7\24cb95ffb0e3433fd6e844c04e68009e504ca1c0\logging-1.2.7.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.22.1\d7e6693c2606cb7e7335047d7bb96dec52db5665\log4j-slf4j2-impl-2.22.1.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.22.1\7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4\log4j-core-2.22.1.jar because it was already located earlier
+[30дек.2024 15:56:07.927] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.22.1\bea6fede6328fabafd7e68363161a7ea6605abd1\log4j-api-2.22.1.jar because it was already located earlier
+[30дек.2024 15:56:07.929] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar
+[30дек.2024 15:56:07.931] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.3.5.jar" [locator: userdev mods and services, reader: mod manifest]
+[30дек.2024 15:56:07.931] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.4.10\b1d8ab82d11d92fd639b56d639f8f46f739dd5fa\oshi-core-6.4.10.jar because it was already located earlier
+[30дек.2024 15:56:07.931] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\8.0.16\67d4de6d7f95d89bcf5862995fb854ebaec02a34\datafixerupper-8.0.16.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10.1\b3add478d4382b78ea20b1671390a858002feb6c\gson-2.10.1.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\32.1.2-jre\5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318\guava-32.1.2-jre.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.33.0\de2b60b62da487644fc11f734e73c8b0b431238f\checker-qual-3.33.0.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.18.0\89b684257096f548fa39a7df9fdaa409d4d4df91\error_prone_annotations-2.18.0.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\2.8\c85270e307e7b822f1086b93689124b89768e273\j2objc-annotations-2.8.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.15.1\f11560da189ab563a5c8e351941415430e9304ea\commons-io-2.15.1.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.minecraftforge\srgutils\0.4.15\ca408b131759478f164e010fae0d73997e125fb5\srgutils-0.4.15.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.1\17125bae1d965624e265ef49552f6465a2bfa307\antlr4-runtime-4.13.1.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.20.0\8f15415b022a25b473e8e16c28ae913186ffb9c4\jline-reader-3.20.0.jar because it was already located earlier
+[30дек.2024 15:56:07.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.20.0\d0ddcc708ddf527a3454c941b7b9225cc83a15ff\jline-terminal-3.20.0.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21\client-1.21-client-extra.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\73.2\61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9\icu4j-73.2.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.2.9\73e324f2ee541493a5179abf367237faa782ed21\brigadier-1.2.9.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.16.0\4e3eb3d79888d76b54e28b350915b5dc3919c9de\commons-codec-1.16.0.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.97.Final\abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36\netty-handler-4.1.97.Final.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.97.Final\384ba4d75670befbedb45c4d3b497a93639c206d\netty-codec-4.1.97.Final.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.97.Final\795da37ded759e862457a82d9d92c4d39ce8ecee\netty-transport-classes-epoll-4.1.97.Final.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.97.Final\d469d84265ab70095b01b40886cabdd433b6e664\netty-transport-native-unix-common-4.1.97.Final.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.97.Final\f37380d23c9bb079bc702910833b2fd532c9abd0\netty-transport-4.1.97.Final.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.97.Final\f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f\netty-buffer-4.1.97.Final.jar because it was already located earlier
+[30дек.2024 15:56:07.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.97.Final\cec8348108dc76c47cf87c669d514be52c922144\netty-resolver-4.1.97.Final.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.97.Final\7cceacaf11df8dc63f23d0fb58e9d4640fc88404\netty-common-4.1.97.Final.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.12\c24946d46824bd528054bface3231d2ecb7e95e8\fastutil-8.5.12.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.14.0\28934d48aed814f11e4c584da55c49fa7032b31b\jna-platform-5.14.0.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.14.0\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\jna-5.14.0.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.16\51cf043c87253c9f58b539c9f7e44c8894223850\httpcore-4.4.16.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6\jorbis-0.0.17.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\a0db6c84a8becc8ca05f9dbfa985edc348a824c7\lwjgl-freetype-3.3.3.jar because it was already located earlier
+[30дек.2024 15:56:07.934] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060/PCIe/SSE2 GL version 4.6.0 NVIDIA 565.90, NVIDIA Corporation
+[30дек.2024 15:56:07.938] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\15a8c1de7f51d07a92eae7ce1222557073a0c0c3\lwjgl-freetype-3.3.3-natives-windows-x86.jar because it was already located earlier
+[30дек.2024 15:56:07.938] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\efa1eb78c5ccd840e9f329717109b5e892d72f8e\lwjgl-glfw-3.3.3.jar because it was already located earlier
+[30дек.2024 15:56:07.942] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\32334f3fd5270a59bad9939a93115acb6de36dcf\lwjgl-glfw-3.3.3-natives-windows-x86.jar because it was already located earlier
+[30дек.2024 15:56:07.943] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\b543467b7ff3c6920539a88ee602d34098628be5\lwjgl-jemalloc-3.3.3.jar because it was already located earlier
+[30дек.2024 15:56:07.943] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\426222fc027602a5f21b9c0fe79cde6a4c7a011f\lwjgl-jemalloc-3.3.3-natives-windows.jar because it was already located earlier
+[30дек.2024 15:56:07.947] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\daada81ceb5fc0c291fbfdd4433cb8d9423577f2\lwjgl-openal-3.3.3.jar because it was already located earlier
+[30дек.2024 15:56:07.952] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\87b8d5050e3adb46bb58fe1cb2669a4a48fce10d\lwjgl-openal-3.3.3-natives-windows-x86.jar because it was already located earlier
+[30дек.2024 15:56:07.953] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\2f6b0147078396a58979125a4c947664e98293a\lwjgl-opengl-3.3.3.jar because it was already located earlier
+[30дек.2024 15:56:07.955] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\65e956d3735a1abdc82eff4baec1b61174697d4b\lwjgl-opengl-3.3.3-natives-windows-arm64.jar because it was already located earlier
+[30дек.2024 15:56:07.957] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\25dd6161988d7e65f71d5065c99902402ee32746\lwjgl-stb-3.3.3.jar because it was already located earlier
+[30дек.2024 15:56:07.957] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\1d9facdf6541de114b0f963be33505b7679c78cb\lwjgl-stb-3.3.3-natives-windows.jar because it was already located earlier
+[30дек.2024 15:56:07.963] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\82d755ca94b102e9ca77283b9e2dc46d1b15fbe5\lwjgl-tinyfd-3.3.3.jar because it was already located earlier
+[30дек.2024 15:56:07.963] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\a6697981b0449a5087c1d546fc08b4f73e8f98c9\lwjgl-tinyfd-3.3.3-natives-windows.jar because it was already located earlier
+[30дек.2024 15:56:07.968] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar because it was already located earlier
+[30дек.2024 15:56:07.973] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\9e670718e050aeaeea0c2d5b907cffb142f2e58f\lwjgl-3.3.3-natives-windows-x86.jar because it was already located earlier
+[30дек.2024 15:56:07.973] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar because it was already located earlier
+[30дек.2024 15:56:07.973] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar because it was already located earlier
+[30дек.2024 15:56:07.973] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator userdev mods and services found 4 mods, 0 warnings, 0 errors and skipped 85 candidates
+[30дек.2024 15:56:07.975] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid neoforge, selecting most recent based on version data
+[30дек.2024 15:56:07.976] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Selected file neoforge-21.0.167.jar for modid neoforge with version 21.0.167
+[30дек.2024 15:56:07.978] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 5 mods. Attempting to load dependencies...
+[30дек.2024 15:56:07.978] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator jarinjar
+[30дек.2024 15:56:07.980] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from neoforge-21.0.167.jar, it does not contain dependency information.
+[30дек.2024 15:56:07.981] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[30дек.2024 15:56:07.981] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[30дек.2024 15:56:07.981] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from jei-1.21-neoforge-19.5.0.59.jar, it does not contain dependency information.
+[30дек.2024 15:56:08.053] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[30дек.2024 15:56:08.054] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[30дек.2024 15:56:08.077] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[30дек.2024 15:56:08.078] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras-neoforge-0.3.5.jar. Using Mod File: C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar
+[30дек.2024 15:56:08.079] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[30дек.2024 15:56:08.080] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.167.jar with {minecraft} mods - versions {1.21}
+[30дек.2024 15:56:08.082] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[30дек.2024 15:56:08.083] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\resources\main
+[30дек.2024 15:56:08.086] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {rtw} mods - versions {1.1.0}
+[30дек.2024 15:56:08.086] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[30дек.2024 15:56:08.087] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config rtw.mixins.json
+[30дек.2024 15:56:08.087] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar
+[30дек.2024 15:56:08.088] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.167.jar with {neoforge} mods - versions {21.0.167}
+[30дек.2024 15:56:08.088] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[30дек.2024 15:56:08.090] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[30дек.2024 15:56:08.090] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[30дек.2024 15:56:08.090] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[30дек.2024 15:56:08.090] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[30дек.2024 15:56:08.090] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config neoforge.mixins.json
+[30дек.2024 15:56:08.091] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.21-neoforge\19.5.0.59\e0e6cb065d44174b202f23c3aa0667948595f085\jei-1.21-neoforge-19.5.0.59.jar
+[30дек.2024 15:56:08.092] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.21-neoforge-19.5.0.59.jar with {jei} mods - versions {19.5.0.59}
+[30дек.2024 15:56:08.092] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.21-neoforge\19.5.0.59\e0e6cb065d44174b202f23c3aa0667948595f085\jei-1.21-neoforge-19.5.0.59.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[30дек.2024 15:56:08.092] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar with languages []
+[30дек.2024 15:56:08.092] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 5 mod files with 4 mods
+[30дек.2024 15:56:08.093] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[30дек.2024 15:56:08.100] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 3 implementations of IModLanguageLoader:
+[30дек.2024 15:56:08.100] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from loader-4.0.23.jar
+[30дек.2024 15:56:08.100] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.lowcodemod.LowCodeModLanguageProvider from loader-4.0.23.jar
+[30дек.2024 15:56:08.101] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from loader-4.0.23.jar
+[30дек.2024 15:56:08.101] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 4.0.23
+[30дек.2024 15:56:08.102] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider lowcodefml, version 4.0.23
+[30дек.2024 15:56:08.102] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 4.0.23
+[30дек.2024 15:56:08.105] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[30дек.2024 15:56:08.105] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[30дек.2024 15:56:08.105] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[30дек.2024 15:56:08.107] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 4 mod requirements (4 mandatory, 0 optional)
+[30дек.2024 15:56:08.107] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[30дек.2024 15:56:08.120] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\build\resources\main
+[30дек.2024 15:56:08.123] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[30дек.2024 15:56:08.178] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[30дек.2024 15:56:08.178] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.167\neoforge-21.0.167.jar
+[30дек.2024 15:56:08.180] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[30дек.2024 15:56:08.224] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[30дек.2024 15:56:08.224] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in C:\Users\Daniil\.gradle\caches\modules-2\files-2.1\mezz.jei\jei-1.21-neoforge\19.5.0.59\e0e6cb065d44174b202f23c3aa0667948595f085\jei-1.21-neoforge-19.5.0.59.jar
+[30дек.2024 15:56:08.224] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[30дек.2024 15:56:08.227] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[30дек.2024 15:56:08.229] [main/DEBUG] [mixin/]: Adding mixin platform agents for container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@45d6ef73
+[30дек.2024 15:56:08.229] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@45d6ef73
+[30дек.2024 15:56:08.229] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@45d6ef73
+[30дек.2024 15:56:08.229] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@45d6ef73
+[30дек.2024 15:56:08.229] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@45d6ef73
+[30дек.2024 15:56:08.229] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@45d6ef73
+[30дек.2024 15:56:08.229] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@45d6ef73
+[30дек.2024 15:56:08.237] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[30дек.2024 15:56:08.238] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[30дек.2024 15:56:08.238] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[30дек.2024 15:56:08.238] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[30дек.2024 15:56:08.238] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/LOADING]: Loading coremod transformers
+[30дек.2024 15:56:08.238] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
+[30дек.2024 15:56:08.240] [main/DEBUG] [net.neoforged.fml.loading.CoreModScriptLoader/CORE]: Loading coremod scripts
+[30дек.2024 15:56:08.489] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[30дек.2024 15:56:08.614] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[30дек.2024 15:56:08.614] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[30дек.2024 15:56:08.656] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[30дек.2024 15:56:08.656] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[30дек.2024 15:56:08.681] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[30дек.2024 15:56:08.681] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[30дек.2024 15:56:08.722] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[30дек.2024 15:56:08.728] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 0 implementations of ICoreMod:
+[30дек.2024 15:56:08.730] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@290e8cab to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@5f14761c to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@33feb805 to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@37854b34 to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[30дек.2024 15:56:08.731] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48eb001a to Target : cpw.mods.modlauncher.api.TargetType@2a7686a7 {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[30дек.2024 15:56:08.732] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[30дек.2024 15:56:08.889] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[30дек.2024 15:56:08.889] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@45d6ef73]
+[30дек.2024 15:56:08.889] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[FMLMixinPlatformAgent:null]
+[30дек.2024 15:56:08.917] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by rtw.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[30дек.2024 15:56:08.920] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30дек.2024 15:56:08.922] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[30дек.2024 15:56:08.922] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixin_synthetic)
+[30дек.2024 15:56:08.922] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixin_synthetic)
+[30дек.2024 15:56:08.922] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixin_synthetic)
+[30дек.2024 15:56:08.922] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixin_synthetic)
+[30дек.2024 15:56:08.922] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixin_synthetic)
+[30дек.2024 15:56:08.922] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixin_synthetic)
+[30дек.2024 15:56:08.922] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixin_synthetic)
+[30дек.2024 15:56:08.922] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin_synthetic)]
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(minecraft)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(minecraft)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(rtw)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(rtw)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(rtw)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(rtw)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(rtw)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(rtw)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(rtw)
+[30дек.2024 15:56:08.923] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(rtw)]
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jei)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jei)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jei)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jei)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jei)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(jei)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(jei)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinextras.neoforge)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinextras.neoforge)
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[30дек.2024 15:56:08.924] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=SecureJarResource(mixinextras.neoforge)
+[30дек.2024 15:56:08.925] [main/DEBUG] [mixin/]: inject() running with 7 agents
+[30дек.2024 15:56:08.926] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[30дек.2024 15:56:08.926] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@45d6ef73]
+[30дек.2024 15:56:08.926] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[FMLMixinPlatformAgent:null]
+[30дек.2024 15:56:08.926] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin_synthetic)]
+[30дек.2024 15:56:08.926] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[30дек.2024 15:56:08.926] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(rtw)]
+[30дек.2024 15:56:08.926] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[30дек.2024 15:56:08.926] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[30дек.2024 15:56:08.927] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.0.167, --gameDir, ., --assetsDir, C:\Users\Daniil\.gradle\caches\minecraft\assets\1.21, --assetIndex, asset-index]
+[30дек.2024 15:56:08.960] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[30дек.2024 15:56:08.960] [main/DEBUG] [mixin/]: Selecting config rtw.mixins.json
+[30дек.2024 15:56:08.963] [main/WARN] [mixin/]: Reference map 'rtw.refmap.json' for rtw.mixins.json could not be read. If this is a development environment you can ignore this message
+[30дек.2024 15:56:08.963] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[30дек.2024 15:56:08.963] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[30дек.2024 15:56:08.984] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[30дек.2024 15:56:09.004] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[30дек.2024 15:56:09.005] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[30дек.2024 15:56:09.006] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[30дек.2024 15:56:09.007] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[30дек.2024 15:56:09.007] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[30дек.2024 15:56:09.008] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[30дек.2024 15:56:09.014] [main/DEBUG] [mixin/]: Preparing rtw.mixins.json (0)
+[30дек.2024 15:56:09.014] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[30дек.2024 15:56:09.024] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.entity.BlockEntityType INNERCLASS BlockEntitySupplier to access PUBLIC and LEAVE
+[30дек.2024 15:56:09.032] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/BlockEntityType to metadata cache
+[30дек.2024 15:56:09.035] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/MappedRegistry to metadata cache
+[30дек.2024 15:56:09.036] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[30дек.2024 15:56:09.039] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.040] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/Overlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.041] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/components/Renderable @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.041] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/AbstractTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.042] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay$LogoTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.043] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/SimpleTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.043] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/vertex/VertexConsumer @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.045] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/GuiGraphics @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.054] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft FIELD pendingConnection to access PUBLIC and LEAVE
+[30дек.2024 15:56:09.054] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Minecraft @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.068] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/platform/WindowEventHandler @Lnet/neoforged/api/distmarker/OnlyIn;
+[30дек.2024 15:56:09.071] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.util.thread.BlockableEventLoop METHOD submitAsync(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture; to access PUBLIC and LEAVE
+[30дек.2024 15:56:09.249] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[30дек.2024 15:56:09.252] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[30дек.2024 15:56:09.252] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[30дек.2024 15:56:09.839] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@30b975ad
+[30дек.2024 15:56:10.137] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 320 milliseconds
+[30дек.2024 15:56:10.183] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@30b975ad
+[30дек.2024 15:56:10.248] [pool-8-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[30дек.2024 15:56:10.249] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[30дек.2024 15:56:10.251] [pool-8-thread-1/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[30дек.2024 15:56:10.254] [pool-8-thread-1/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[30дек.2024 15:56:10.257] [pool-8-thread-1/DEBUG] [mixin/]: neoforge.mixins.json:MappedRegistryAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[30дек.2024 15:56:10.700] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[30дек.2024 15:56:10.732] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[30дек.2024 15:56:11.121] [pool-8-thread-1/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[30дек.2024 15:56:11.122] [pool-8-thread-1/DEBUG] [mixin/]: neoforge.mixins.json:BlockEntityTypeAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_17 supports class version 61)
+[30дек.2024 15:56:11.256] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[30дек.2024 15:56:11.612] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[30дек.2024 15:56:12.099] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[30дек.2024 15:56:12.099] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[30дек.2024 15:56:12.100] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[30дек.2024 15:56:12.100] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[30дек.2024 15:56:12.100] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[30дек.2024 15:56:12.101] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[30дек.2024 15:56:12.101] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[30дек.2024 15:56:12.102] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[30дек.2024 15:56:12.103] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[30дек.2024 15:56:12.103] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 8573157376 bytes (maybe)
+[30дек.2024 15:56:12.103] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Daniil\AppData\Local\Temp (java.io.tmpdir)
+[30дек.2024 15:56:12.103] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[30дек.2024 15:56:12.104] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[30дек.2024 15:56:12.104] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[30дек.2024 15:56:12.104] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[30дек.2024 15:56:12.105] [pool-8-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[30дек.2024 15:56:12.105] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[30дек.2024 15:56:12.312] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[30дек.2024 15:56:12.342] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[30дек.2024 15:56:12.364] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[30дек.2024 15:56:12.393] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[30дек.2024 15:56:12.468] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[30дек.2024 15:56:12.478] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[30дек.2024 15:56:12.501] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[30дек.2024 15:56:13.184] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[30дек.2024 15:56:13.205] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[30дек.2024 15:56:13.212] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[30дек.2024 15:56:13.216] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[30дек.2024 15:56:13.240] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[30дек.2024 15:56:13.493] [pool-8-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[30дек.2024 15:56:13.513] [pool-8-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[30дек.2024 15:56:13.867] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[30дек.2024 15:56:13.940] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/RaidCommand
+[30дек.2024 15:56:13.984] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30дек.2024 15:56:13.986] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30дек.2024 15:56:13.987] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30дек.2024 15:56:13.988] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[30дек.2024 15:56:13.989] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[30дек.2024 15:56:14.071] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Daniil/IdeaProjects/Rebooting-the-world-mods/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.167/neoforge-21.0.167.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[30дек.2024 15:56:14.071] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Daniil/IdeaProjects/Rebooting-the-world-mods/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.167/neoforge-21.0.167.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[30дек.2024 15:56:14.090] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[30дек.2024 15:56:14.097] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[30дек.2024 15:56:14.167] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[30дек.2024 15:56:14.335] [Render thread/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
+[30дек.2024 15:56:14.344] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.max_di.rtw.RTW]
+[30дек.2024 15:56:14.346] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.client.ClientNeoForgeMod]
+[30дек.2024 15:56:14.349] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [mezz.jei.neoforge.JustEnoughItems]
+[30дек.2024 15:56:14.366] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
+[30дек.2024 15:56:14.368] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.0.167
+[30дек.2024 15:56:14.368] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 4.0.23
+[30дек.2024 15:56:14.368] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.0.167, for MC 1.21
+[30дек.2024 15:56:14.374] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[30дек.2024 15:56:14.374] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[30дек.2024 15:56:14.374] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[30дек.2024 15:56:14.377] [modloading-worker-0/DEBUG] [mezz.jei.common.platform.Services/]: Loaded mezz.jei.neoforge.platform.PlatformHelper@5e910fe4 for service interface mezz.jei.common.platform.IPlatformHelper
+[30дек.2024 15:56:14.379] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for rtw
+[30дек.2024 15:56:14.380] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.max_di.rtw.common.datagen.DataGenerators to MOD
+[30дек.2024 15:56:14.381] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.max_di.rtw.common.events.ModEventBusClientEvents to MOD
+[30дек.2024 15:56:14.383] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.max_di.rtw.common.events.ModEventBusEvents to MOD
+[30дек.2024 15:56:14.384] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.max_di.rtw.common.events.ModEvents to GAME
+[30дек.2024 15:56:14.400] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei\jei-debug.ini
+[30дек.2024 15:56:14.401] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Saving config file: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei\jei-debug.ini
+[30дек.2024 15:56:14.405] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei\jei-mod-id-format.ini
+[30дек.2024 15:56:14.406] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Saving config file: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei\jei-mod-id-format.ini
+[30дек.2024 15:56:14.409] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei\jei-colors.ini
+[30дек.2024 15:56:14.411] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Saving config file: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei\jei-colors.ini
+[30дек.2024 15:56:14.414] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[30дек.2024 15:56:14.415] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.server.command.ConfigCommand to GAME
+[30дек.2024 15:56:14.415] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.filters.GenericPacketSplitter to MOD
+[30дек.2024 15:56:14.418] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei\jei-client.ini
+[30дек.2024 15:56:14.419] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Saving config file: C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei\jei-client.ini
+[30дек.2024 15:56:14.423] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[30дек.2024 15:56:14.424] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:minecraft...
+[30дек.2024 15:56:14.424] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: rtw:rtw_plugin...
+[30дек.2024 15:56:14.424] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:neoforge_gui...
+[30дек.2024 15:56:14.424] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:debug...
+[30дек.2024 15:56:14.424] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:gui...
+[30дек.2024 15:56:14.424] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:internal...
+[30дек.2024 15:56:14.425] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 1.537 ms
+[30дек.2024 15:56:14.427] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[30дек.2024 15:56:14.431] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[30дек.2024 15:56:14.431] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[30дек.2024 15:56:14.432] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@8cf496c
+[30дек.2024 15:56:14.438] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[30дек.2024 15:56:14.438] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[30дек.2024 15:56:14.440] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[30дек.2024 15:56:14.441] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[30дек.2024 15:56:14.441] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[30дек.2024 15:56:14.447] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[30дек.2024 15:56:14.447] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[30дек.2024 15:56:14.447] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[30дек.2024 15:56:14.452] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.NetworkInitialization to MOD
+[30дек.2024 15:56:14.453] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.ConfigurationInitialization to MOD
+[30дек.2024 15:56:14.456] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.MonsterRoomHooks to GAME
+[30дек.2024 15:56:14.456] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler to MOD
+[30дек.2024 15:56:14.457] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$ColorRegisterHandler to MOD
+[30дек.2024 15:56:14.458] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.model.data.ModelDataManager to GAME
+[30дек.2024 15:56:14.459] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ParticleBoundsDebugRenderer to GAME
+[30дек.2024 15:56:14.461] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ClientHooks$ClientEvents to MOD
+[30дек.2024 15:56:14.463] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer to GAME
+[30дек.2024 15:56:14.464] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.attachment.AttachmentInternals to GAME
+[30дек.2024 15:56:14.472] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Unfreezing registries
+[30дек.2024 15:56:14.603] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Freezing registries
+[30дек.2024 15:56:14.639] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: All registries frozen
+[30дек.2024 15:56:14.639] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[30дек.2024 15:56:14.642] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[30дек.2024 15:56:14.642] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\neoforge-client.toml
+[30дек.2024 15:56:14.645] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\neoforge-client.toml for changes
+[30дек.2024 15:56:14.645] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[30дек.2024 15:56:14.646] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[30дек.2024 15:56:14.646] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\neoforge-common.toml
+[30дек.2024 15:56:14.646] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\neoforge-common.toml for changes
+[30дек.2024 15:56:14.971] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[30дек.2024 15:56:15.052] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/rtw, mod/neoforge, mod/jei
+[30дек.2024 15:56:15.091] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[30дек.2024 15:56:15.093] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.348 ms
+[30дек.2024 15:56:15.109] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[30дек.2024 15:56:15.183] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[30дек.2024 15:56:16.236] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[30дек.2024 15:56:16.237] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[30дек.2024 15:56:16.285] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Динамики (High Definition Audio Device)
+[30дек.2024 15:56:16.286] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[30дек.2024 15:56:16.431] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[30дек.2024 15:56:16.442] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[30дек.2024 15:56:16.442] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[30дек.2024 15:56:16.442] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[30дек.2024 15:56:16.443] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[30дек.2024 15:56:16.445] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[30дек.2024 15:56:16.445] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[30дек.2024 15:56:16.445] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[30дек.2024 15:56:16.445] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[30дек.2024 15:56:16.527] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[30дек.2024 15:56:16.529] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[30дек.2024 15:56:16.529] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[30дек.2024 15:56:16.529] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[30дек.2024 15:56:16.529] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[30дек.2024 15:56:16.550] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[30дек.2024 15:56:16.588] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[30дек.2024 15:56:20.167] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1568 recipes
+[30дек.2024 15:56:20.296] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1656 advancements
+[30дек.2024 15:56:20.616] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent too early, ignoring
+[30дек.2024 15:56:20.650] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 15:56:20.684] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21
+[30дек.2024 15:56:20.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30дек.2024 15:56:20.749] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[30дек.2024 15:56:20.749] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei-server.toml
+[30дек.2024 15:56:20.750] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\jei-server.toml for changes
+[30дек.2024 15:56:20.750] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[30дек.2024 15:56:20.751] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\neoforge-server.toml
+[30дек.2024 15:56:20.751] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Users\Daniil\IdeaProjects\Rebooting-the-world-mods\runs\client\config\neoforge-server.toml for changes
+[30дек.2024 15:56:20.776] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[30дек.2024 15:56:20.780] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[30дек.2024 15:56:20.782] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[30дек.2024 15:56:20.784] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[30дек.2024 15:56:21.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30дек.2024 15:56:21.630] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30дек.2024 15:56:21.669] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 206 ms
+[30дек.2024 15:56:21.670] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[30дек.2024 15:56:21.717] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[30дек.2024 15:56:21.730] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 14, from 10
+[30дек.2024 15:56:21.730] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 19, from 0
+[30дек.2024 15:56:21.747] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
+[30дек.2024 15:56:21.756] [Render thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[30дек.2024 15:56:21.764] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[30дек.2024 15:56:21.764] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[30дек.2024 15:56:21.768] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[30дек.2024 15:56:21.794] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 9056 (auto-detected)
+[30дек.2024 15:56:21.795] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[30дек.2024 15:56:21.795] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: system
+[30дек.2024 15:56:21.797] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[30дек.2024 15:56:21.800] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[30дек.2024 15:56:21.801] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 9c:6b:00:ff:fe:36:ee:c5 (auto-detected)
+[30дек.2024 15:56:21.841] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[30дек.2024 15:56:21.841] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[30дек.2024 15:56:21.841] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[30дек.2024 15:56:21.841] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[30дек.2024 15:56:21.842] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[30дек.2024 15:56:21.927] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@51ba3bd3 into net.minecraft.network.Connection@1b7bc684
+[30дек.2024 15:56:21.930] [Netty Local Client IO #0/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@840ee92 into net.minecraft.network.Connection@62e799b4
+[30дек.2024 15:56:22.109] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent
+[30дек.2024 15:56:22.186] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@300e0027 into net.minecraft.network.Connection@1b7bc684
+[30дек.2024 15:56:22.239] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:07066863] logged in with entity id 1 at (-540.8831887837372, 70.18838406454087, -732.8344777423698)
+[30дек.2024 15:56:22.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[30дек.2024 15:56:22.352] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_boat_from_mangrove_log_sawmilling
+[30дек.2024 15:56:22.352] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_cherry_wood_from_cherry_wood_sawmilling
+[30дек.2024 15:56:22.352] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_planks_from_stripped_oak_log_sawmilling
+[30дек.2024 15:56:22.352] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_boat_from_stripped_acacia_wood_sawmilling
+[30дек.2024 15:56:22.352] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_fence_gate_from_dark_oak_planks_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:bamboo_slab_from_bamboo_planks_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_slab_from_dark_oak_planks_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_boat_from_stripped_cherry_wood_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_boat_from_acacia_log_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_crimson_planks_from_crimson_planks_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:bamboo_raft_from_bamboo_block_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_boat_from_stripped_cherry_log_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_dark_oak_planks_from_dark_oak_planks_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_planks_from_stripped_birch_log_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_fence_gate_from_birch_planks_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_acacia_planks_from_acacia_log_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_parquet_from_oak_log_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_planks_from_stripped_oak_wood_sawmilling
+[30дек.2024 15:56:22.353] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_jungle_planks_from_jungle_planks_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:crimson_parquet_from_crimson_stem_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_fence_gate_from_jungle_planks_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_acacia_wood_from_acacia_wood_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_planks_from_stripped_acacia_log_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_mangrove_planks_from_mangrove_log_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_slab_from_acacia_planks_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_planks_from_cherry_wood_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_acacia_log_from_acacia_log_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_jungle_log_from_jungle_log_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_boat_from_oak_log_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_parquet_from_cherry_log_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_cherry_log_from_cherry_log_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_boat_from_stripped_dark_oak_wood_sawmilling
+[30дек.2024 15:56:22.354] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_mangrove_planks_from_mangrove_planks_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_jungle_wood_from_jungle_wood_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_parquet_from_birch_planks_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_planks_from_mangrove_log_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_fence_gate_from_cherry_planks_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_planks_from_jungle_wood_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_oak_log_from_oak_log_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_dark_oak_wood_from_dark_oak_wood_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_birch_planks_from_birch_log_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_planks_from_oak_log_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_stairs_from_cherry_planks_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_parquet_from_oak_planks_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_slab_from_birch_planks_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_boat_from_stripped_spruce_log_sawmilling
+[30дек.2024 15:56:22.355] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_parquet_from_cherry_planks_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_parquet_from_birch_log_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_parquet_from_spruce_planks_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_oak_wood_from_oak_wood_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_planks_from_birch_log_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_planks_from_jungle_log_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_fence_from_mangrove_planks_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_slab_from_cherry_planks_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_slab_from_jungle_planks_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_planks_from_stripped_birch_wood_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_parquet_from_mangrove_planks_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_fence_from_dark_oak_planks_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_planks_from_dark_oak_wood_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_boat_from_jungle_wood_sawmilling
+[30дек.2024 15:56:22.356] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_planks_from_dark_oak_log_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_spruce_log_from_spruce_log_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_spruce_planks_from_spruce_log_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:bamboo_fence_from_bamboo_planks_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_birch_planks_from_birch_planks_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_fence_gate_from_spruce_planks_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_fence_gate_from_mangrove_planks_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_boat_from_stripped_oak_wood_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_fence_from_acacia_planks_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_boat_from_spruce_wood_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_parquet_from_mangrove_log_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_boat_from_stripped_mangrove_wood_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_parquet_from_dark_oak_log_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_boat_from_oak_wood_sawmilling
+[30дек.2024 15:56:22.357] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_planks_from_cherry_log_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_parquet_from_acacia_log_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_boat_from_birch_log_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_fence_from_spruce_planks_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_boat_from_mangrove_wood_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_boat_from_stripped_oak_log_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_boat_from_stripped_mangrove_log_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_planks_from_birch_wood_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_spruce_planks_from_spruce_planks_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_planks_from_stripped_cherry_log_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_boat_from_jungle_log_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_boat_from_stripped_jungle_wood_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_stairs_from_birch_planks_sawmilling
+[30дек.2024 15:56:22.358] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_planks_from_stripped_dark_oak_log_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_oak_planks_from_oak_planks_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_boat_from_dark_oak_log_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_boat_from_stripped_jungle_log_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_boat_from_acacia_wood_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_bamboo_block_from_bamboo_block_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_stairs_from_spruce_planks_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_planks_from_stripped_jungle_wood_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_crimson_planks_from_crimson_stem_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_planks_from_stripped_acacia_wood_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_mangrove_log_from_mangrove_log_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_spruce_wood_from_spruce_wood_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_boat_from_spruce_log_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_mangrove_wood_from_mangrove_wood_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_stairs_from_dark_oak_planks_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_parquet_from_jungle_log_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_birch_wood_from_birch_wood_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_planks_from_stripped_mangrove_wood_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_acacia_planks_from_acacia_planks_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:bamboo_raft_from_stripped_bamboo_block_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_parquet_from_dark_oak_planks_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_planks_from_stripped_dark_oak_wood_sawmilling
+[30дек.2024 15:56:22.359] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_jungle_planks_from_jungle_log_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:crimson_parquet_from_crimson_planks_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_dark_oak_log_from_dark_oak_log_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_warped_planks_from_warped_planks_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_stairs_from_oak_planks_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_planks_from_stripped_jungle_log_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_boat_from_stripped_birch_wood_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_planks_from_stripped_spruce_log_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:stripped_birch_log_from_birch_log_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:warped_parquet_from_warped_planks_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_boat_from_stripped_dark_oak_log_sawmilling
+[30дек.2024 15:56:22.360] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_boat_from_stripped_birch_log_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:bamboo_fence_gate_from_bamboo_planks_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_fence_from_jungle_planks_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_planks_from_stripped_cherry_wood_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_fence_from_cherry_planks_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_slab_from_spruce_planks_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_slab_from_oak_planks_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_fence_from_oak_planks_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_dark_oak_planks_from_dark_oak_log_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_planks_from_acacia_wood_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:bamboo_planks_from_bamboo_block_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_boat_from_stripped_spruce_wood_sawmilling
+[30дек.2024 15:56:22.361] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_boat_from_cherry_log_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_cherry_planks_from_cherry_planks_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_planks_from_stripped_spruce_wood_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:bamboo_stairs_from_bamboo_planks_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_planks_from_spruce_log_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_fence_from_birch_planks_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_slab_from_mangrove_planks_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_planks_from_mangrove_wood_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:bamboo_planks_from_stripped_bamboo_block_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_planks_from_stripped_mangrove_log_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_oak_planks_from_oak_log_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_fence_gate_from_acacia_planks_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:birch_boat_from_birch_wood_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_parquet_from_acacia_planks_sawmilling
+[30дек.2024 15:56:22.362] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_cherry_planks_from_cherry_log_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_boat_from_stripped_acacia_log_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_planks_from_spruce_wood_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_parquet_from_jungle_planks_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_fence_gate_from_oak_planks_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:warped_parquet_from_warped_stem_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:carved_warped_planks_from_warped_stem_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_planks_from_acacia_log_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:oak_planks_from_oak_wood_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:dark_oak_boat_from_dark_oak_wood_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:spruce_parquet_from_spruce_log_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:acacia_stairs_from_acacia_planks_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:jungle_stairs_from_jungle_planks_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:cherry_boat_from_cherry_wood_sawmilling
+[30дек.2024 15:56:22.363] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: rtw:sawmill/minecraft:mangrove_stairs_from_mangrove_planks_sawmilling
+[30дек.2024 15:56:22.367] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.client.event.RecipesUpdatedEvent
+[30дек.2024 15:56:22.367] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from LISTENING to JEI_STARTED
+[30дек.2024 15:56:22.369] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[30дек.2024 15:56:22.373] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[30дек.2024 15:56:22.373] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:minecraft...
+[30дек.2024 15:56:22.374] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: rtw:rtw_plugin...
+[30дек.2024 15:56:22.374] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:neoforge_gui...
+[30дек.2024 15:56:22.374] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:debug...
+[30дек.2024 15:56:22.374] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:gui...
+[30дек.2024 15:56:22.374] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:internal...
+[30дек.2024 15:56:22.375] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 1.628 ms
+[30дек.2024 15:56:22.375] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[30дек.2024 15:56:22.375] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:minecraft...
+[30дек.2024 15:56:22.375] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: rtw:rtw_plugin...
+[30дек.2024 15:56:22.375] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:neoforge_gui...
+[30дек.2024 15:56:22.375] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:debug...
+[30дек.2024 15:56:22.375] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:gui...
+[30дек.2024 15:56:22.376] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:internal...
+[30дек.2024 15:56:22.376] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 859.1 ?s
+[30дек.2024 15:56:22.377] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[30дек.2024 15:56:22.377] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft...
+[30дек.2024 15:56:22.402] [Render thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[30дек.2024 15:56:22.451] [Render thread/WARN] [mezz.jei.library.plugins.vanilla.ingredients.ItemStackListFactory/]: Item Group has no display items and no search tab display items. Items from this group will be missing from the JEI ingredient list. Operator Utilities
+[30дек.2024 15:56:22.468] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 90.78 milliseconds
+[30дек.2024 15:56:22.468] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: rtw:rtw_plugin...
+[30дек.2024 15:56:22.468] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:neoforge_gui...
+[30дек.2024 15:56:22.468] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:debug...
+[30дек.2024 15:56:22.468] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:gui...
+[30дек.2024 15:56:22.468] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:internal...
+[30дек.2024 15:56:22.469] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 91.64 ms
+[30дек.2024 15:56:22.472] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[30дек.2024 15:56:22.472] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:minecraft...
+[30дек.2024 15:56:22.473] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: rtw:rtw_plugin...
+[30дек.2024 15:56:22.473] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:neoforge_gui...
+[30дек.2024 15:56:22.473] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:debug...
+[30дек.2024 15:56:22.473] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:gui...
+[30дек.2024 15:56:22.473] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:internal...
+[30дек.2024 15:56:22.473] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 644.8 ?s
+[30дек.2024 15:56:22.484] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[30дек.2024 15:56:22.484] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft...
+[30дек.2024 15:56:22.493] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: rtw:rtw_plugin...
+[30дек.2024 15:56:22.494] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:neoforge_gui...
+[30дек.2024 15:56:22.494] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:debug...
+[30дек.2024 15:56:22.494] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:gui...
+[30дек.2024 15:56:22.494] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:internal...
+[30дек.2024 15:56:22.495] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 11.80 ms
+[30дек.2024 15:56:22.495] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[30дек.2024 15:56:22.495] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:minecraft...
+[30дек.2024 15:56:22.496] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: rtw:rtw_plugin...
+[30дек.2024 15:56:22.497] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:neoforge_gui...
+[30дек.2024 15:56:22.497] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:debug...
+[30дек.2024 15:56:22.497] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:gui...
+[30дек.2024 15:56:22.497] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:internal...
+[30дек.2024 15:56:22.497] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 1.411 ms
+[30дек.2024 15:56:22.498] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[30дек.2024 15:56:22.499] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:minecraft...
+[30дек.2024 15:56:22.499] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: rtw:rtw_plugin...
+[30дек.2024 15:56:22.499] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:neoforge_gui...
+[30дек.2024 15:56:22.499] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:debug...
+[30дек.2024 15:56:22.499] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:gui...
+[30дек.2024 15:56:22.499] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:internal...
+[30дек.2024 15:56:22.499] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 865.4 ?s
+[30дек.2024 15:56:22.500] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[30дек.2024 15:56:22.500] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:minecraft...
+[30дек.2024 15:56:22.501] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: rtw:rtw_plugin...
+[30дек.2024 15:56:22.501] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:neoforge_gui...
+[30дек.2024 15:56:22.501] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:debug...
+[30дек.2024 15:56:22.501] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:gui...
+[30дек.2024 15:56:22.501] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:internal...
+[30дек.2024 15:56:22.501] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 428.9 ?s
+[30дек.2024 15:56:22.501] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[30дек.2024 15:56:22.507] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 5.629 ms
+[30дек.2024 15:56:22.509] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[30дек.2024 15:56:22.509] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft...
+[30дек.2024 15:56:22.522] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:crafting
+[30дек.2024 15:56:22.552] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:crafting
+[30дек.2024 15:56:22.555] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:stonecutting
+[30дек.2024 15:56:22.556] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:smelting
+[30дек.2024 15:56:22.557] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:smoking
+[30дек.2024 15:56:22.557] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:blasting
+[30дек.2024 15:56:22.557] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:campfire_cooking
+[30дек.2024 15:56:22.560] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:fuel
+[30дек.2024 15:56:22.571] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:anvil
+[30дек.2024 15:56:22.583] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:smithing
+[30дек.2024 15:56:22.586] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:compostable
+[30дек.2024 15:56:22.621] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:brewing
+[30дек.2024 15:56:22.625] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 116.1 milliseconds
+[30дек.2024 15:56:22.625] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: rtw:rtw_plugin...
+[30дек.2024 15:56:22.625] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: rtw:sawmilling
+[30дек.2024 15:56:22.626] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:neoforge_gui...
+[30дек.2024 15:56:22.626] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:debug...
+[30дек.2024 15:56:22.626] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:gui...
+[30дек.2024 15:56:22.626] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal...
+[30дек.2024 15:56:22.626] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 117.6 ms
+[30дек.2024 15:56:22.644] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[30дек.2024 15:56:22.645] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:minecraft...
+[30дек.2024 15:56:22.647] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: rtw:rtw_plugin...
+[30дек.2024 15:56:22.647] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:neoforge_gui...
+[30дек.2024 15:56:22.647] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:debug...
+[30дек.2024 15:56:22.647] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:gui...
+[30дек.2024 15:56:22.647] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:internal...
+[30дек.2024 15:56:22.647] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 2.270 ms
+[30дек.2024 15:56:22.651] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[30дек.2024 15:56:22.653] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[30дек.2024 15:56:22.653] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:minecraft...
+[30дек.2024 15:56:22.655] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: rtw:rtw_plugin...
+[30дек.2024 15:56:22.655] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:neoforge_gui...
+[30дек.2024 15:56:22.655] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:debug...
+[30дек.2024 15:56:22.655] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:gui...
+[30дек.2024 15:56:22.659] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:internal...
+[30дек.2024 15:56:22.660] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 6.286 ms
+[30дек.2024 15:56:22.663] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[30дек.2024 15:56:22.663] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:minecraft...
+[30дек.2024 15:56:22.664] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: rtw:rtw_plugin...
+[30дек.2024 15:56:22.664] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui...
+[30дек.2024 15:56:22.664] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[30дек.2024 15:56:22.665] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[30дек.2024 15:56:22.666] [Render thread/DEBUG] [mezz.jei.gui.ingredients.IngredientListElementFactory/]: Registering ingredients: ItemStack
+[30дек.2024 15:56:22.668] [Render thread/DEBUG] [mezz.jei.gui.ingredients.IngredientListElementFactory/]: Registering ingredients: FluidStack
+[30дек.2024 15:56:22.668] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 3.177 ms
+[30дек.2024 15:56:22.668] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[30дек.2024 15:56:22.689] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1717 ingredients
+[30дек.2024 15:56:22.843] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1717/1717 ingredients
+[30дек.2024 15:56:22.844] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 175.4 ms
+[30дек.2024 15:56:22.900] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 236.5 milliseconds
+[30дек.2024 15:56:22.900] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:debug...
+[30дек.2024 15:56:22.900] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:gui...
+[30дек.2024 15:56:22.900] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:internal...
+[30дек.2024 15:56:22.900] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 237.2 ms
+[30дек.2024 15:56:22.900] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 250.3 ms
+[30дек.2024 15:56:22.901] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[30дек.2024 15:56:22.901] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:minecraft...
+[30дек.2024 15:56:22.901] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: rtw:rtw_plugin...
+[30дек.2024 15:56:22.901] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:neoforge_gui...
+[30дек.2024 15:56:22.901] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:debug...
+[30дек.2024 15:56:22.901] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:gui...
+[30дек.2024 15:56:22.901] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:internal...
+[30дек.2024 15:56:22.901] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 399.4 ?s
+[30дек.2024 15:56:22.901] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 533.2 ms
+[30дек.2024 15:56:22.912] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 192 advancements
+[30дек.2024 15:56:25.064] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[30дек.2024 15:56:44.473] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30дек.2024 15:56:44.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30дек.2024 15:56:44.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30дек.2024 15:56:44.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30дек.2024 15:56:44.568] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 15:57:51.692] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Advanced tooltips: hidden
+[30дек.2024 15:57:53.509] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Debug]: Advanced tooltips: shown
+[30дек.2024 15:58:35.172] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30дек.2024 15:58:35.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30дек.2024 15:58:35.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30дек.2024 15:58:35.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30дек.2024 15:58:35.260] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:03:59.322] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30дек.2024 16:03:59.335] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30дек.2024 16:03:59.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30дек.2024 16:03:59.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30дек.2024 16:03:59.362] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:04:01.193] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Install the "Configured" mod to access the in-game config\nClick here to open the JEI config folder
+[30дек.2024 16:05:00.006] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has no tags
+[30дек.2024 16:05:05.440] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has no tags
+[30дек.2024 16:05:07.714] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has no tags
+[30дек.2024 16:06:48.589] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:11:48.581] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:16:48.574] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:21:48.561] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:26:48.557] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:31:48.584] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:36:48.558] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:41:48.581] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:46:48.557] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:51:48.590] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 16:56:48.559] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:01:48.560] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:06:48.571] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:11:48.572] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:16:48.557] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:21:48.555] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:26:48.558] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:31:48.559] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:36:48.563] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:41:48.574] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:46:48.558] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:51:48.559] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 17:56:48.594] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:01:48.597] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:06:48.556] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:11:48.558] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:16:48.595] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:21:48.568] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:26:48.558] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:31:48.598] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:36:48.557] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:41:48.568] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:43:46.429] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] minecraft:block\n[Tags: 293] <page 1 / 37>\n - c:barrels\n - c:barrels/wooden\n - c:bookshelves\n - c:budding_blocks\n - c:buds\n - c:chains\n - c:chests\n - c:chests/ender
+[30дек.2024 18:43:58.780] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] minecraft:block : minecraft:oak_planks\n[Containing tags: 2] <page 1 / 1>\n - minecraft:mineable/axe\n - minecraft:planks
+[30дек.2024 18:45:25.419] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] minecraft:block : rtw:birch_parquet\n[Containing tags: 2] <page 1 / 1>\n - minecraft:mineable/axe\n - minecraft:planks
+[30дек.2024 18:46:48.593] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:48:09.621] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30дек.2024 18:48:09.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30дек.2024 18:48:09.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30дек.2024 18:48:09.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30дек.2024 18:48:09.654] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:52:18.959] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 18:57:18.967] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:02:18.984] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:07:18.990] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:12:18.981] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:17:18.994] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:22:18.992] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:27:18.991] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:32:18.994] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:37:18.995] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:42:18.987] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:47:18.954] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:52:18.957] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 19:57:18.974] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:02:18.999] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:07:18.963] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:12:18.988] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:17:18.997] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:22:18.987] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:27:18.955] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:32:18.989] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:37:18.954] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:37:19.872] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30дек.2024 20:37:19.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30дек.2024 20:37:19.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30дек.2024 20:37:19.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30дек.2024 20:37:19.912] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:38:04.421] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30дек.2024 20:38:04.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30дек.2024 20:38:04.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30дек.2024 20:38:04.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30дек.2024 20:38:04.449] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:38:30.722] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[30дек.2024 20:38:30.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30дек.2024 20:38:30.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30дек.2024 20:38:30.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30дек.2024 20:38:30.771] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:38:30.936] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[30дек.2024 20:38:30.936] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to LISTENING
+[30дек.2024 20:38:30.936] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[30дек.2024 20:38:30.936] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[30дек.2024 20:38:30.936] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:minecraft...
+[30дек.2024 20:38:30.936] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: rtw:rtw_plugin...
+[30дек.2024 20:38:30.936] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:neoforge_gui...
+[30дек.2024 20:38:30.937] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[30дек.2024 20:38:30.939] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:debug...
+[30дек.2024 20:38:30.939] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:gui...
+[30дек.2024 20:38:30.939] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:internal...
+[30дек.2024 20:38:30.939] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 2.233 ms
+[30дек.2024 20:38:30.977] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[30дек.2024 20:38:30.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[30дек.2024 20:38:30.985] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[30дек.2024 20:38:31.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[30дек.2024 20:38:31.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[30дек.2024 20:38:31.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[30дек.2024 20:38:31.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[30дек.2024 20:38:31.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[30дек.2024 20:38:31.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[30дек.2024 20:38:31.594] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[30дек.2024 20:38:31.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[30дек.2024 20:38:31.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[30дек.2024 20:38:31.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[30дек.2024 20:38:31.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[30дек.2024 20:38:31.646] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[30дек.2024 20:38:31.763] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -3,10 +3,10 @@ package net.max_di.rtw.common.items;
 import net.max_di.rtw.RTW;
 import net.max_di.rtw.common.effect.ModEffects;
 import net.max_di.rtw.common.entity.ModEntities;
+import net.max_di.rtw.common.items.custom.DynamiteStickItem;
 import net.max_di.rtw.common.items.custom.GingerBreadCreeperSpawnerItem;
 import net.max_di.rtw.common.items.custom.GingerBreadManSpawnerItem;
 import net.max_di.rtw.common.items.custom.RemainingItem;
-import net.minecraft.core.Holder;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -69,7 +69,6 @@ public class ModItemsRW {
                     .effect(new MobEffectInstance(ModEffects.EFFECT_RESISTANCE, 200, 0, false, true, true), 1F).build())));
 
 
-
     //GINGERBREAD HEART
     public static final Supplier<Item> GINGERBREAD_FORM_HEART = ITEMS.register("gingerbread_form_heart",
             () -> new RemainingItem(new Item.Properties().durability(1)));
@@ -83,7 +82,6 @@ public class ModItemsRW {
     public static final Supplier<Item> GLAZED_GINGERBREAD_HEART = ITEMS.register("glazed_gingerbread_heart",
             () -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(4).saturationModifier(0.4F).alwaysEdible()
                     .effect(new MobEffectInstance(ModEffects.EFFECT_RESISTANCE, 200, 0, false, true, true), 1F).build())));
-
 
 
     //GINGERBREAD MAN
@@ -100,7 +98,6 @@ public class ModItemsRW {
                     .effect(new MobEffectInstance(ModEffects.EFFECT_RESISTANCE, 200, 0, false, true, true), 1F).build())));
 
 
-
     //GINGERBREAD PINE
     public static final Supplier<Item> GINGERBREAD_FORM_PINE = ITEMS.register("gingerbread_form_pine",
             () -> new RemainingItem(new Item.Properties().durability(1)));
@@ -114,7 +111,6 @@ public class ModItemsRW {
     public static final Supplier<Item> GLAZED_GINGERBREAD_PINE = ITEMS.register("glazed_gingerbread_pine",
             () -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).saturationModifier(0.6F).alwaysEdible()
                     .effect(new MobEffectInstance(ModEffects.EFFECT_RESISTANCE, 200, 0, false, true, true), 1F).build())));
-
 
 
     //GINGERBREAD CREEPER
@@ -160,8 +156,6 @@ public class ModItemsRW {
                     .effect(new MobEffectInstance(ModEffects.EFFECT_RESISTANCE, 200, 0, false, true, true), 1F).build())));
 
 
-
-
     //
     public static final Supplier<Item> GINGERBREAD_DOUGH = ITEMS.register("gingerbread_dough",
             () -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(1).saturationModifier(0.1F)
@@ -172,10 +166,27 @@ public class ModItemsRW {
     public static final Supplier<Item> REPAIR_TEMPLATE = ITEMS.register("repair_template",
             () -> new Item(new Item.Properties()));
     public static final Supplier<Item> GINGERBREAD_MAN_SPAWN_EGG = ITEMS.register("gingerbread_man_spawn_egg",
-            () -> new SpawnEggItem(ModEntities.GINGERBREAD_MAN_ENTITY.get(), 0XFFFFFF,0XFFFFFF, new Item.Properties()));
+            () -> new SpawnEggItem(ModEntities.GINGERBREAD_MAN_ENTITY.get(), 0XFFFFFF, 0XFFFFFF, new Item.Properties()));
     public static final Supplier<Item> GINGERBREAD_CREEPER_SPAWN_EGG = ITEMS.register("gingerbread_creeper_spawn_egg",
-            () -> new SpawnEggItem(ModEntities.GINGERBREAD_CREEPER_ENTITY.get(), 0XFFFFFF,0XFFFFFF, new Item.Properties()));
+            () -> new SpawnEggItem(ModEntities.GINGERBREAD_CREEPER_ENTITY.get(), 0XFFFFFF, 0XFFFFFF, new Item.Properties()));
 
+    public static final Supplier<Item> SMALL_DYNAMITE_STICK = ITEMS.register("small_dynamite_stick",
+            () -> new DynamiteStickItem(new Item.Properties(), 1, false));
+
+    public static final Supplier<Item> SMALL_SPIKY_DYNAMITE_STICK = ITEMS.register("small_spiky_dynamite_stick",
+            () -> new DynamiteStickItem(new Item.Properties(), 1, true));
+
+    public static final Supplier<Item> MEDIUM_DYNAMITE_STICK = ITEMS.register("medium_dynamite_stick",
+            () -> new DynamiteStickItem(new Item.Properties(), 2, false));
+
+    public static final Supplier<Item> MEDIUM_SPIKY_DYNAMITE_STICK = ITEMS.register("medium_spiky_dynamite_stick",
+            () -> new DynamiteStickItem(new Item.Properties(), 2, true));
+
+    public static final Supplier<Item> BIG_DYNAMITE_STICK = ITEMS.register("big_dynamite_stick",
+            () -> new DynamiteStickItem(new Item.Properties(), 3, false));
+
+    public static final Supplier<Item> BIG_SPIKY_DYNAMITE_STICK = ITEMS.register("big_spiky_dynamite_stick",
+            () -> new DynamiteStickItem(new Item.Properties(), 3, true));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

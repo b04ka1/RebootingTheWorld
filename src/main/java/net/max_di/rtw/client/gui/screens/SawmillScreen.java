@@ -11,11 +11,20 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.item.crafting.RecipeHolder;
+import net.neoforged.api.distmarker.Dist;
+import net.neoforged.api.distmarker.OnlyIn;
 
 import java.util.List;
 
+@OnlyIn(Dist.CLIENT)
 public class SawmillScreen extends AbstractContainerScreen<SawmillMenu> {
-    private static final ResourceLocation BG_LOCATION = new ResourceLocation("textures/gui/container/stonecutter.png");
+    private static final ResourceLocation SCROLLER_SPRITE = ResourceLocation.withDefaultNamespace("container/stonecutter/scroller");
+    private static final ResourceLocation SCROLLER_DISABLED_SPRITE = ResourceLocation.withDefaultNamespace("container/stonecutter/scroller_disabled");
+    private static final ResourceLocation RECIPE_SELECTED_SPRITE = ResourceLocation.withDefaultNamespace("container/stonecutter/recipe_selected");
+    private static final ResourceLocation RECIPE_HIGHLIGHTED_SPRITE = ResourceLocation.withDefaultNamespace("container/stonecutter/recipe_highlighted");
+    private static final ResourceLocation RECIPE_SPRITE = ResourceLocation.withDefaultNamespace("container/stonecutter/recipe");
+    private static final ResourceLocation BG_LOCATION = ResourceLocation.withDefaultNamespace("textures/gui/container/stonecutter.png");
     private static final int SCROLLER_WIDTH = 12;
     private static final int SCROLLER_HEIGHT = 15;
     private static final int RECIPES_COLUMNS = 4;
@@ -26,133 +35,173 @@ public class SawmillScreen extends AbstractContainerScreen<SawmillMenu> {
     private static final int RECIPES_X = 52;
     private static final int RECIPES_Y = 14;
     private float scrollOffs;
+    /**
+     * Is {@code true} if the player clicked on the scroll wheel in the GUI.
+     */
     private boolean scrolling;
+    /**
+     * The index of the first recipe to display.
+     * The number of recipes displayed at any time is 12 (4 recipes per row, and 3 rows). If the player scrolled down one row, this value would be 4 (representing the index of the first slot on the second row).
+     */
     private int startIndex;
     private boolean displayRecipes;
 
-    public SawmillScreen(SawmillMenu p_99310_, Inventory p_99311_, Component p_99312_) {
-        super(p_99310_, p_99311_, p_99312_);
-        p_99310_.registerUpdateListener(this::containerChanged);
-        --this.titleLabelY;
+    public SawmillScreen(SawmillMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
+        super(pMenu, pPlayerInventory, pTitle);
+        pMenu.registerUpdateListener(this::containerChanged);
+        this.titleLabelY--;
     }
 
-    public void render(GuiGraphics p_281735_, int p_282517_, int p_282840_, float p_282389_) {
-        super.render(p_281735_, p_282517_, p_282840_, p_282389_);
-        this.renderTooltip(p_281735_, p_282517_, p_282840_);
+    /**
+     * Renders the graphical user interface (GUI) element.
+     *
+     * @param pGuiGraphics the GuiGraphics object used for rendering.
+     * @param pMouseX      the x-coordinate of the mouse cursor.
+     * @param pMouseY      the y-coordinate of the mouse cursor.
+     * @param pPartialTick the partial tick time.
+     */
+    @Override
+    public void render(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY, float pPartialTick) {
+        super.render(pGuiGraphics, pMouseX, pMouseY, pPartialTick);
+        this.renderTooltip(pGuiGraphics, pMouseX, pMouseY);
     }
 
-    protected void renderBg(GuiGraphics p_283115_, float p_282453_, int p_282940_, int p_282328_) {
-        this.renderBackground(p_283115_);
+    @Override
+    protected void renderBg(GuiGraphics pGuiGraphics, float pPartialTick, int pMouseX, int pMouseY) {
         int i = this.leftPos;
         int j = this.topPos;
-        p_283115_.blit(BG_LOCATION, i, j, 0, 0, this.imageWidth, this.imageHeight);
-        int k = (int)(41.0F * this.scrollOffs);
-        p_283115_.blit(BG_LOCATION, i + 119, j + 15 + k, 176 + (this.isScrollBarActive() ? 0 : 12), 0, 12, 15);
+        pGuiGraphics.blit(BG_LOCATION, i, j, 0, 0, this.imageWidth, this.imageHeight);
+        int k = (int) (41.0F * this.scrollOffs);
+        ResourceLocation resourcelocation = this.isScrollBarActive() ? SCROLLER_SPRITE : SCROLLER_DISABLED_SPRITE;
+        pGuiGraphics.blitSprite(resourcelocation, i + 119, j + 15 + k, 12, 15);
         int l = this.leftPos + 52;
         int i1 = this.topPos + 14;
         int j1 = this.startIndex + 12;
-        this.renderButtons(p_283115_, p_282940_, p_282328_, l, i1, j1);
-        this.renderRecipes(p_283115_, l, i1, j1);
+        this.renderButtons(pGuiGraphics, pMouseX, pMouseY, l, i1, j1);
+        this.renderRecipes(pGuiGraphics, l, i1, j1);
     }
 
-    protected void renderTooltip(GuiGraphics p_282396_, int p_283157_, int p_282258_) {
-        super.renderTooltip(p_282396_, p_283157_, p_282258_);
+    @Override
+    protected void renderTooltip(GuiGraphics pGuiGraphics, int pX, int pY) {
+        super.renderTooltip(pGuiGraphics, pX, pY);
         if (this.displayRecipes) {
             int i = this.leftPos + 52;
             int j = this.topPos + 14;
             int k = this.startIndex + 12;
-            List<SawmillRecipe> list = this.menu.getRecipes();
+            List<RecipeHolder<SawmillRecipe>> list = this.menu.getRecipes();
 
-            for(int l = this.startIndex; l < k && l < this.menu.getNumRecipes(); ++l) {
+            for (int l = this.startIndex; l < k && l < this.menu.getNumRecipes(); l++) {
                 int i1 = l - this.startIndex;
                 int j1 = i + i1 % 4 * 16;
                 int k1 = j + i1 / 4 * 18 + 2;
-                if (p_283157_ >= j1 && p_283157_ < j1 + 16 && p_282258_ >= k1 && p_282258_ < k1 + 18) {
-                    p_282396_.renderTooltip(this.font, list.get(l).getResultItem(this.minecraft.level.registryAccess()), p_283157_, p_282258_);
+                if (pX >= j1 && pX < j1 + 16 && pY >= k1 && pY < k1 + 18) {
+                    pGuiGraphics.renderTooltip(this.font, list.get(l).value().getResultItem(this.minecraft.level.registryAccess()), pX, pY);
                 }
             }
         }
-
     }
 
-    private void renderButtons(GuiGraphics p_282733_, int p_282136_, int p_282147_, int p_281987_, int p_281276_, int p_282688_) {
-        for(int i = this.startIndex; i < p_282688_ && i < this.menu.getNumRecipes(); ++i) {
+    private void renderButtons(GuiGraphics pGuiGraphics, int pMouseX, int pMouseY, int pX, int pY, int pLastVisibleElementIndex) {
+        for (int i = this.startIndex; i < pLastVisibleElementIndex && i < this.menu.getNumRecipes(); i++) {
             int j = i - this.startIndex;
-            int k = p_281987_ + j % 4 * 16;
+            int k = pX + j % 4 * 16;
             int l = j / 4;
-            int i1 = p_281276_ + l * 18 + 2;
-            int j1 = this.imageHeight;
+            int i1 = pY + l * 18 + 2;
+            ResourceLocation resourcelocation;
             if (i == this.menu.getSelectedRecipeIndex()) {
-                j1 += 18;
-            } else if (p_282136_ >= k && p_282147_ >= i1 && p_282136_ < k + 16 && p_282147_ < i1 + 18) {
-                j1 += 36;
+                resourcelocation = RECIPE_SELECTED_SPRITE;
+            } else if (pMouseX >= k && pMouseY >= i1 && pMouseX < k + 16 && pMouseY < i1 + 18) {
+                resourcelocation = RECIPE_HIGHLIGHTED_SPRITE;
+            } else {
+                resourcelocation = RECIPE_SPRITE;
             }
 
-            p_282733_.blit(BG_LOCATION, k, i1 - 1, 0, j1, 16, 18);
+            pGuiGraphics.blitSprite(resourcelocation, k, i1 - 1, 16, 18);
         }
-
     }
 
-    private void renderRecipes(GuiGraphics p_281999_, int p_282658_, int p_282563_, int p_283352_) {
-        List<SawmillRecipe> list = this.menu.getRecipes();
+    private void renderRecipes(GuiGraphics pGuiGraphics, int pX, int pY, int pStartIndex) {
+        List<RecipeHolder<SawmillRecipe>> list = this.menu.getRecipes();
 
-        for(int i = this.startIndex; i < p_283352_ && i < this.menu.getNumRecipes(); ++i) {
+        for (int i = this.startIndex; i < pStartIndex && i < this.menu.getNumRecipes(); i++) {
             int j = i - this.startIndex;
-            int k = p_282658_ + j % 4 * 16;
+            int k = pX + j % 4 * 16;
             int l = j / 4;
-            int i1 = p_282563_ + l * 18 + 2;
-            p_281999_.renderItem(list.get(i).getResultItem(this.minecraft.level.registryAccess()), k, i1);
+            int i1 = pY + l * 18 + 2;
+            pGuiGraphics.renderItem(list.get(i).value().getResultItem(this.minecraft.level.registryAccess()), k, i1);
         }
-
     }
 
-    public boolean mouseClicked(double p_99318_, double p_99319_, int p_99320_) {
+    /**
+     * Called when a mouse button is clicked within the GUI element.
+     * <p>
+     *
+     * @param pMouseX the X coordinate of the mouse.
+     * @param pMouseY the Y coordinate of the mouse.
+     * @param pButton the button that was clicked.
+     * @return {@code true} if the event is consumed, {@code false} otherwise.
+     */
+    @Override
+    public boolean mouseClicked(double pMouseX, double pMouseY, int pButton) {
         this.scrolling = false;
         if (this.displayRecipes) {
             int i = this.leftPos + 52;
             int j = this.topPos + 14;
             int k = this.startIndex + 12;
 
-            for(int l = this.startIndex; l < k; ++l) {
+            for (int l = this.startIndex; l < k; l++) {
                 int i1 = l - this.startIndex;
-                double d0 = p_99318_ - (double)(i + i1 % 4 * 16);
-                double d1 = p_99319_ - (double)(j + i1 / 4 * 18);
-                if (d0 >= 0.0D && d1 >= 0.0D && d0 < 16.0D && d1 < 18.0D && this.menu.clickMenuButton(this.minecraft.player, l)) {
+                double d0 = pMouseX - (double) (i + i1 % 4 * 16);
+                double d1 = pMouseY - (double) (j + i1 / 4 * 18);
+                if (d0 >= 0.0 && d1 >= 0.0 && d0 < 16.0 && d1 < 18.0 && this.menu.clickMenuButton(this.minecraft.player, l)) {
                     Minecraft.getInstance().getSoundManager().play(SimpleSoundInstance.forUI(SoundEvents.UI_STONECUTTER_SELECT_RECIPE, 1.0F));
-                    this.minecraft.gameMode.handleInventoryButtonClick((this.menu).containerId, l);
+                    this.minecraft.gameMode.handleInventoryButtonClick(this.menu.containerId, l);
                     return true;
                 }
             }
 
             i = this.leftPos + 119;
             j = this.topPos + 9;
-            if (p_99318_ >= (double)i && p_99318_ < (double)(i + 12) && p_99319_ >= (double)j && p_99319_ < (double)(j + 54)) {
+            if (pMouseX >= (double) i && pMouseX < (double) (i + 12) && pMouseY >= (double) j && pMouseY < (double) (j + 54)) {
                 this.scrolling = true;
             }
         }
 
-        return super.mouseClicked(p_99318_, p_99319_, p_99320_);
+        return super.mouseClicked(pMouseX, pMouseY, pButton);
     }
 
-    public boolean mouseDragged(double p_99322_, double p_99323_, int p_99324_, double p_99325_, double p_99326_) {
+    /**
+     * Called when the mouse is dragged within the GUI element.
+     * <p>
+     *
+     * @param pMouseX the X coordinate of the mouse.
+     * @param pMouseY the Y coordinate of the mouse.
+     * @param pButton the button that is being dragged.
+     * @param pDragX  the X distance of the drag.
+     * @param pDragY  the Y distance of the drag.
+     * @return {@code true} if the event is consumed, {@code false} otherwise.
+     */
+    @Override
+    public boolean mouseDragged(double pMouseX, double pMouseY, int pButton, double pDragX, double pDragY) {
         if (this.scrolling && this.isScrollBarActive()) {
             int i = this.topPos + 14;
             int j = i + 54;
-            this.scrollOffs = ((float)p_99323_ - (float)i - 7.5F) / ((float)(j - i) - 15.0F);
+            this.scrollOffs = ((float) pMouseY - (float) i - 7.5F) / ((float) (j - i) - 15.0F);
             this.scrollOffs = Mth.clamp(this.scrollOffs, 0.0F, 1.0F);
-            this.startIndex = (int)((double)(this.scrollOffs * (float)this.getOffscreenRows()) + 0.5D) * 4;
+            this.startIndex = (int) ((double) (this.scrollOffs * (float) this.getOffscreenRows()) + 0.5) * 4;
             return true;
         } else {
-            return super.mouseDragged(p_99322_, p_99323_, p_99324_, p_99325_, p_99326_);
+            return super.mouseDragged(pMouseX, pMouseY, pButton, pDragX, pDragY);
         }
     }
 
-    public boolean mouseScrolled(double p_99314_, double p_99315_, double p_99316_) {
+    @Override
+    public boolean mouseScrolled(double pMouseX, double pMouseY, double pScrollX, double pScrollY) {
         if (this.isScrollBarActive()) {
             int i = this.getOffscreenRows();
-            float f = (float)p_99316_ / (float)i;
+            float f = (float) pScrollY / (float) i;
             this.scrollOffs = Mth.clamp(this.scrollOffs - f, 0.0F, 1.0F);
-            this.startIndex = (int)((double)(this.scrollOffs * (float)i) + 0.5D) * 4;
+            this.startIndex = (int) ((double) (this.scrollOffs * (float) i) + 0.5) * 4;
         }
 
         return true;
@@ -172,6 +221,5 @@ public class SawmillScreen extends AbstractContainerScreen<SawmillMenu> {
             this.scrollOffs = 0.0F;
             this.startIndex = 0;
         }
-
     }
 }

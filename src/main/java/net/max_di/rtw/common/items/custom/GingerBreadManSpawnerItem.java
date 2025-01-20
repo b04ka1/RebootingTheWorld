@@ -1,7 +1,8 @@
 package net.max_di.rtw.common.items.custom;
 
 import net.max_di.rtw.common.entity.ModEntities;
-import net.max_di.rtw.common.entity.gingerbread_man.GingerVariant;
+import net.max_di.rtw.common.entity.gingerbread.gingerbread_man.GingerbreadManEntity;
+import net.max_di.rtw.common.entity.gingerbread.gingerbread_man.GingerbreadManVariant;
 import net.minecraft.Util;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -15,7 +16,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
-import net.max_di.rtw.common.entity.gingerbread_man.GingerBreadEntity;
 
 public class GingerBreadManSpawnerItem extends Item {
     public GingerBreadManSpawnerItem(Properties properties) {
@@ -28,15 +28,15 @@ public class GingerBreadManSpawnerItem extends Item {
         BlockPos pos = context.getClickedPos();
         ItemStack itemStack = context.getItemInHand();
         Direction direction = context.getClickedFace();
-        boolean isShiftDown = context.getPlayer()!= null? context.getPlayer().isShiftKeyDown() : false;
-        if (!(level instanceof ServerLevel serverLevel) ||!isShiftDown) {
+        boolean isShiftDown = context.getPlayer() != null ? context.getPlayer().isShiftKeyDown() : false;
+        if (!(level instanceof ServerLevel serverLevel) || !isShiftDown) {
             return InteractionResult.PASS;
         }
         BlockPos spawnPos = pos.relative(direction);
         if (serverLevel.getBlockState(spawnPos).isAir()) {
-            GingerBreadEntity entity = ModEntities.GINGERBREAD_MAN_ENTITY.get().create(serverLevel);
-            if (entity!= null) {
-                GingerVariant variant = Util.getRandom(GingerVariant.values(), level.random);
+            GingerbreadManEntity entity = ModEntities.GINGERBREAD_MAN_ENTITY.get().create(serverLevel);
+            if (entity != null) {
+                GingerbreadManVariant variant = Util.getRandom(GingerbreadManVariant.values(), level.random);
                 entity.setVariant(variant);
                 entity.moveTo(spawnPos.getX() + 0.5, spawnPos.getY(), spawnPos.getZ() + 0.5, context.getRotation(), 0.0F);
                 serverLevel.addFreshEntity(entity);

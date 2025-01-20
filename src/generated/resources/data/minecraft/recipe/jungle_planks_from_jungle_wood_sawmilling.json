@@ -1,0 +1,10 @@
+{
+  "type": "rtw:sawmilling",
+  "ingredient": {
+    "item": "minecraft:jungle_wood"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:jungle_planks"
+  }
+}

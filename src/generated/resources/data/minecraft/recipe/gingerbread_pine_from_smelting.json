@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "rtw:raw_gingerbread_pine"
+  },
+  "result": {
+    "count": 1,
+    "id": "rtw:gingerbread_pine"
+  }
+}

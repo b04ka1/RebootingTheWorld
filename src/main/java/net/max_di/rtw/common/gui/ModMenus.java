@@ -12,5 +12,5 @@ import java.util.function.Supplier;
 public class ModMenus {
     public static final DeferredRegister<MenuType<?>> MENU_TYPE = DeferredRegister.create(Registries.MENU, RTW.MOD_ID);
 
-    public static final Supplier<MenuType<SawmillMenu>> SAWMILL_MENU = MENU_TYPE.register("sawmill", ()-> new MenuType<SawmillMenu>(SawmillMenu::new, FeatureFlags.DEFAULT_FLAGS));
+    public static final Supplier<MenuType<SawmillMenu>> SAWMILL_MENU = MENU_TYPE.register("sawmill", () -> new MenuType<SawmillMenu>(SawmillMenu::new, FeatureFlags.DEFAULT_FLAGS));
 }

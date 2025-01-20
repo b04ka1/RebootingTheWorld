@@ -1,8 +1,8 @@
 package net.max_di.rtw.common.items.custom;
 
 import net.max_di.rtw.common.entity.ModEntities;
-import net.max_di.rtw.common.entity.gingerbread_creeper.GingerBreadCreeperEntity;
-import net.max_di.rtw.common.entity.gingerbread_creeper.GingerCreeperVariant;
+import net.max_di.rtw.common.entity.gingerbread.gingerbread_creeper.GingerbreadCreeperEntity;
+import net.max_di.rtw.common.entity.gingerbread.gingerbread_creeper.GingerbreadCreeperVariant;
 import net.minecraft.Util;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -28,15 +28,15 @@ public class GingerBreadCreeperSpawnerItem extends Item {
         BlockPos pos = context.getClickedPos();
         ItemStack itemStack = context.getItemInHand();
         Direction direction = context.getClickedFace();
-        boolean isShiftDown = context.getPlayer()!= null? context.getPlayer().isShiftKeyDown() : false;
-        if (!(level instanceof ServerLevel serverLevel) ||!isShiftDown) {
+        boolean isShiftDown = context.getPlayer() != null ? context.getPlayer().isShiftKeyDown() : false;
+        if (!(level instanceof ServerLevel serverLevel) || !isShiftDown) {
             return InteractionResult.PASS;
         }
         BlockPos spawnPos = pos.relative(direction);
         if (serverLevel.getBlockState(spawnPos).isAir()) {
-            GingerBreadCreeperEntity entity = ModEntities.GINGERBREAD_CREEPER_ENTITY.get().create(serverLevel);
-            if (entity!= null) {
-                GingerCreeperVariant variant = Util.getRandom(GingerCreeperVariant.values(), level.random);
+            GingerbreadCreeperEntity entity = ModEntities.GINGERBREAD_CREEPER_ENTITY.get().create(serverLevel);
+            if (entity != null) {
+                GingerbreadCreeperVariant variant = Util.getRandom(GingerbreadCreeperVariant.values(), level.random);
                 entity.setVariant(variant);
                 entity.moveTo(spawnPos.getX() + 0.5, spawnPos.getY(), spawnPos.getZ() + 0.5, context.getRotation(), 0.0F);
                 serverLevel.addFreshEntity(entity);

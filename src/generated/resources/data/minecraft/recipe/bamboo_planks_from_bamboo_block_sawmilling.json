@@ -1,0 +1,10 @@
+{
+  "type": "rtw:sawmilling",
+  "ingredient": {
+    "item": "minecraft:bamboo_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "minecraft:bamboo_planks"
+  }
+}

@@ -7,38 +7,41 @@ import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.trading.ItemCost;
 import net.minecraft.world.item.trading.MerchantOffer;
-import net.minecraftforge.event.village.VillagerTradesEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.event.village.VillagerTradesEvent;
 
 import java.util.List;
 
-@Mod.EventBusSubscriber(modid = RTW.MOD_ID)
+@EventBusSubscriber(modid = RTW.MOD_ID)
 public class ModEvents {
 
     @SubscribeEvent
     public static void addCustomTrades(VillagerTradesEvent event) {
-        if(event.getType() == VillagerProfession.ARMORER) {
+        if (event.getType() == VillagerProfession.ARMORER) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(Items.EMERALD, 10+pRandom.nextInt(10)),
+                    new ItemCost(Items.EMERALD, 10 + pRandom.nextInt(10)),
                     new ItemStack(ModItemsRW.REPAIR_TEMPLATE.get()),
                     3, 1, 0.2f));
         }
-        if(event.getType() == VillagerProfession.WEAPONSMITH) {
+        if (event.getType() == VillagerProfession.WEAPONSMITH) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(Items.EMERALD, 10+pRandom.nextInt(10)),
+                    new ItemCost(Items.EMERALD, 10 + pRandom.nextInt(10)),
                     new ItemStack(ModItemsRW.REPAIR_TEMPLATE.get()),
                     3, 1, 0.2f));
         }
-        if(event.getType() == VillagerProfession.TOOLSMITH) {
+        if (event.getType() == VillagerProfession.TOOLSMITH) {
             Int2ObjectMap<List<VillagerTrades.ItemListing>> trades = event.getTrades();
             trades.get(5).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemStack(Items.EMERALD, 10+pRandom.nextInt(10)),
+                    new ItemCost(Items.EMERALD, 10 + pRandom.nextInt(10)),
                     new ItemStack(ModItemsRW.REPAIR_TEMPLATE.get()),
                     3, 1, 0.2f));
         }
     }
+
+
 }

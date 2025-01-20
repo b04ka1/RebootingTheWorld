@@ -1,0 +1,10 @@
+{
+  "type": "rtw:sawmilling",
+  "ingredient": {
+    "item": "minecraft:acacia_log"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:acacia_boat"
+  }
+}

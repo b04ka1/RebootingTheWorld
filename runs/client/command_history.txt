@@ -1,0 +1,50 @@
+/summon rtw:spike
+/tick unfreeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick freeze
+/summon rtw:spike
+/tick гтfreeze
+/tick unfreeze
+/effect give Dev minecraft:night_vision
+/effect give Dev minecraft:night_vision infinite
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick rate 15
+/tick rate 10
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/tick freeze
+/tick unfreeze
+/effect give Dev minecraft:night_vision infinite
+/effect clear
+/time set day
+/weather clear
+/tag Dev list
+/neoforge tags minecraft:block list
+/neoforge tags minecraft:block query minecraft:oak_planks
+/neoforge tags minecraft:block query rtw:birch_parquet

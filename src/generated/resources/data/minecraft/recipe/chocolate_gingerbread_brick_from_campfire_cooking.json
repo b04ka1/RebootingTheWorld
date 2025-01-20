@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 400,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "rtw:raw_chocolate_gingerbread_brick"
+  },
+  "result": {
+    "count": 1,
+    "id": "rtw:chocolate_gingerbread_brick"
+  }
+}
